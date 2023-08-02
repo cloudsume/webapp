@@ -1,0 +1,83 @@
+name: CI
+on:
+  push:
+    branches:
+    - main
+concurrency: ${{ github.ref }}
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+    permissions:
+      packages: write
+      contents: read
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v3
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build Docker
+      run: |
+        tag="ghcr.io/cloudsume/webapp:${GITHUB_REF##*/}"
+        src="org.opencontainers.image.source=https://github.com/cloudsume/webapp"
+        lic="org.opencontainers.image.licenses=AGPL-3.0-or-later"
+        des="org.opencontainers.image.description=Cloudsumé Web Application"
+
+        docker build -t "$tag" --label "$src" --label "$lic" --label "$des" .
+
+        echo "image=$tag" >> $GITHUB_OUTPUT
+      id: docker
+    - name: Install dependencies
+      run: npm install
+    - name: Build for staging
+      run: npm run build -- --env production --output-path staging
+      env:
+        CSM_BASE_URI: https://csm.sg1.ultima.in.th
+        CSM_SERVER_URI: https://csm-api.sg1.ultima.in.th
+        CSM_OIDC_PROVIDER: https://idp.sg1.ultima.in.th
+        CSM_STRIPE_KEY: ${{ secrets.STRIPE_KEY_TEST }}
+        CSM_CAPTCHA_KEY: ${{ secrets.CAPTCHA_KEY_STAGING }}
+    - name: Install system packages
+      run: sudo apt-get install -y openresolv wireguard
+    - name: Connect to staging network
+      run: |
+        if=wg0
+        ip=172.23.0.7/32
+        peer=l9ZU0Jj9j6+aaexPBrYX3MHxvCnupzduo67w0c//U0Q=
+        network=172.16.0.0/22
+        endpoint=sg1.gw.ultima.in.th:51820
+        dns=172.16.0.2
+        search=sg1.ultima.in.th
+
+        echo "==> Adding WireGuard interface"
+        sudo ip link add "$if" type wireguard
+
+        echo "==> Configure WireGuard"
+        echo "$PRIVATE_KEY" | sudo wg set "$if" private-key /dev/stdin peer "$peer" endpoint "$endpoint" allowed-ips "$network"
+
+        echo "==> Assigning IP address"
+        sudo ip -4 address add "$ip" dev "$if"
+
+        echo "==> Activating the interface"
+        sudo ip link set up dev "$if"
+
+        echo "==> Configure DNS"
+        sudo resolvconf -a "tun.$if" -m 0 -x <<EOF
+        nameserver $dns
+        search $search
+        EOF
+
+        echo "==> Configure route table"
+        sudo ip -4 route add "$network" dev "$if"
+      env:
+        PRIVATE_KEY: ${{ secrets.WIREGUARD_KEY }}
+    - name: Deploy staging
+      run: rsync -rzv staging/ cloudsume@web1.sg1.ultima.in.th::cloudsume
+      env:
+        RSYNC_PASSWORD: ${{ secrets.RSYNC_STAGING }}
+    - name: Push Docker
+      run: docker push "${{ steps.docker.outputs.image }}"

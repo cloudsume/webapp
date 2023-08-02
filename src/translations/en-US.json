@@ -1,0 +1,1706 @@
+{
+  "sign-in": {
+    "label": {
+      "link": "Sign in"
+    },
+    "message": {
+      "error": "Cannot sign in due to unexpected error.",
+      "loading": "Signing in..."
+    }
+  },
+  "change-language": {
+    "label": {
+      "header": "Change language"
+    },
+    "message": {
+      "error": "Cannot change language due to an unexpected error."
+    }
+  },
+  "north-america": {
+    "label": {
+      "header": "North America"
+    }
+  },
+  "southeast-asia": {
+    "label": {
+      "header": "Southeast Asia"
+    }
+  },
+  "sign-out": {
+    "message": {
+      "error": "Cannot sign out due to an unexpected error."
+    }
+  },
+  "not-found": {
+    "message": {
+      "description": "The page you requested does not exist."
+    }
+  },
+  "my-resumes": {
+    "message": {
+      "fetch-error": "Cannot fetch the list of resumes due to an unexpected error."
+    }
+  },
+  "new-resume": {
+    "label": {
+      "header": "New",
+      "link": "New",
+      "modal-title": "Create resume"
+    },
+    "message": {
+      "description": "Create a new resume.",
+      "create-error": "Cannot create a resume due to unexpected error."
+    }
+  },
+  "navigate": {
+    "message": {
+      "error": "Cannot navigate to the requested page due to unexpected error."
+    }
+  },
+  "use-resume-template": {
+    "label": {
+      "radio": "Use this template"
+    }
+  },
+  "resume-name": {
+    "label": {
+      "input": "Resume name"
+    },
+    "message": {
+      "description": "Name this resume.",
+      "invalid": "Name must be at least 1 character but not exceed 100 characters."
+    }
+  },
+  "edit-resume": {
+    "label": {
+      "link": "Edit"
+    },
+    "message": {
+      "fetch-resume-error": "Cannot load a resume to edit due to an unexpected error.",
+      "fetch-thumbnail-error": "Cannot load resume thumbnails due to an unexpected error.",
+      "fetch-template-error": "Cannot load template due to unexpected error.",
+      "data-update-error": "An unexpected error occurred while updating your resume: {error}.",
+      "fetch-global-data-error": "Cannot fetch global resume data due to an unexpected error.",
+      "fetch-localized-data-error": "Cannot fetch localized data due to an unexpected error."
+    }
+  },
+  "delete-resume": {
+    "label": {
+      "link": "Delete",
+      "header": "Delete resume"
+    },
+    "message": {
+      "description": "This action cannot be undone. Are you sure you want to delete {name}?",
+      "delete-error": "Cannot delete a resume due to an unexpected error."
+    }
+  },
+  "save-resume": {
+    "label": {
+      "button": "Save"
+    }
+  },
+  "cancel-edit-resume": {
+    "label": {
+      "link": "Cancel"
+    }
+  },
+  "resume-name-data": {
+    "label": {
+      "header": "Name"
+    }
+  },
+  "untitled-resume": {
+    "label": {
+      "header": "Untitled"
+    }
+  },
+  "browse-resume-template": {
+    "label": {
+      "button": "Browse"
+    }
+  },
+  "cancel-browse-resume-template": {
+    "label": {
+      "button": "Cancel"
+    }
+  },
+  "edit-resume-properties": {
+    "message": {
+      "partial-updated": "Some properties have not been updated due to unexpected error. The data showing currently may not be correct."
+    }
+  },
+  "cancel-delete-resume": {
+    "label": {
+      "button": "Cancel"
+    }
+  },
+  "confirm-delete-resume": {
+    "label": {
+      "button": "Yes"
+    }
+  },
+  "renew-token": {
+    "message": {
+      "error": "Cannot renew access token due to an unexpected error."
+    }
+  },
+  "resume-summary-data": {
+    "label": {
+      "header": "Summary"
+    }
+  },
+  "resume-experience-data": {
+    "label": {
+      "header": "Experience {index}"
+    }
+  },
+  "resume-experience-start": {
+    "label": {
+      "header": "Start date"
+    },
+    "message": {
+      "description": "The date on which you began this position."
+    }
+  },
+  "resume-experience-end": {
+    "label": {
+      "header": "End date"
+    }
+  },
+  "previous-year": {
+    "label": {
+      "button": "Previous year"
+    }
+  },
+  "select-date": {
+    "label": {
+      "placeholder": "No date selected"
+    },
+    "message": {
+      "navigation": "Use the arrow keys to navigate calendar dates."
+    }
+  },
+  "previous-month": {
+    "label": {
+      "button": "Previous month"
+    }
+  },
+  "current-month": {
+    "label": {
+      "button": "Current month"
+    }
+  },
+  "next-month": {
+    "label": {
+      "button": "Next month"
+    }
+  },
+  "next-year": {
+    "label": {
+      "button": "Next year"
+    }
+  },
+  "clear-selected-date": {
+    "label": {
+      "button": "Reset"
+    }
+  },
+  "cancel-select-date": {
+    "label": {
+      "button": "Cancel"
+    }
+  },
+  "resume-experience-title": {
+    "label": {
+      "header": "Job title"
+    },
+    "message": {
+      "description": "Your job title in this position."
+    }
+  },
+  "resume-experience-company": {
+    "label": {
+      "header": "Company"
+    },
+    "message": {
+      "description": "The name of the company which employed you."
+    }
+  },
+  "resume-experience-address": {
+    "label": {
+      "header": "Address"
+    },
+    "message": {
+      "description": "Where were you working this position? Provide an area or a city, not the full address."
+    }
+  },
+  "select-country": {
+    "label": {
+      "placeholder": "No country selected"
+    }
+  },
+  "select-subdivision": {
+    "label": {
+      "placeholder-no-country": "No country selected",
+      "placeholder": "No state selected"
+    }
+  },
+  "resume-experience-description": {
+    "label": {
+      "header": "Description"
+    },
+    "message": {
+      "description": "Description of this job position. Include your usual tasks, skills utilized, and achievements. Try to keep it short as possible."
+    }
+  },
+  "template-associated-value": {
+    "label": {
+      "placeholder": "Template associated"
+    }
+  },
+  "new-resume-data": {
+    "label": {
+      "placeholder": "New data"
+    }
+  },
+  "resume-headline-data": {
+    "label": {
+      "header": "Headline"
+    }
+  },
+  "download-resume": {
+    "label": {
+      "menu-item": "Download",
+      "header": "Download resume",
+      "link": "Download"
+    }
+  },
+  "building-resume": {
+    "label": {
+      "progress": "Building resume..."
+    }
+  },
+  "downloading-resume": {
+    "label": {
+      "progress": "Downloading..."
+    }
+  },
+  "save-downloaded-resume": {
+    "label": {
+      "button": "Save"
+    }
+  },
+  "resume-downloaded": {
+    "label": {
+      "progress": "Completed"
+    }
+  },
+  "resume-address-data": {
+    "label": {
+      "header": "Address"
+    }
+  },
+  "resume-address-address": {
+    "label": {
+      "header": "Address"
+    },
+    "message": {
+      "description": "Your location (only include the area or city) of residence."
+    }
+  },
+  "resume-photo-data": {
+    "label": {
+      "header": "Photo",
+      "placeholder": "No photo"
+    }
+  },
+  "select-file": {
+    "label": {
+      "placeholder": "No file chosen"
+    }
+  },
+  "browse-file": {
+    "label": {
+      "button": "Browse"
+    }
+  },
+  "resume-mobile-number-data": {
+    "label": {
+      "header": "Mobile number"
+    }
+  },
+  "resume-email-address-data": {
+    "label": {
+      "header": "Email"
+    },
+    "message": {
+      "description": "Your email address. Make sure it's professional.",
+      "invalid-input": "The email address must be 254 characters or fewer and contain only English characters."
+    }
+  },
+  "resume-linkedin-data": {
+    "label": {
+      "header": "LinkedIn"
+    }
+  },
+  "resume-linkedin-username": {
+    "label": {
+      "header": "Username"
+    },
+    "message": {
+      "description": "Your LinkedIn username, found in the custom URL of your LinkedIn profile. For example, the username for the link www.linkedin.com/in/john is \"john\"."
+    }
+  },
+  "resume-github-data": {
+    "label": {
+      "header": "GitHub"
+    }
+  },
+  "resume-github-username": {
+    "label": {
+      "header": "Username"
+    },
+    "message": {
+      "description": "Your GitHub account username."
+    }
+  },
+  "unknow-language": {
+    "label": {
+      "header": "Unknow language"
+    }
+  },
+  "resume-language-data": {
+    "label": {
+      "header": "Language {index}"
+    }
+  },
+  "resume-language-language": {
+    "label": {
+      "header": "Language",
+      "placeholder": "No language selected"
+    },
+    "message": {
+      "description": "Your languages spoken. Don't include languages not relevant to the position you're applying for."
+    }
+  },
+  "resume-language-proficiency": {
+    "label": {
+      "header": "Proficiency"
+    },
+    "message": {
+      "description": "Your proficiency in the language. Don't include scores of testing systems that the intended recipient doesn't accept."
+    }
+  },
+  "resume-language-comment": {
+    "label": {
+      "header": "Comments"
+    },
+    "message": {
+      "description": "Additional comments about this language. Try to keep it short as possible."
+    }
+  },
+  "ielts": {
+    "label": {
+      "select-item": "IELTS"
+    }
+  },
+  "toeic": {
+    "label": {
+      "select-item": "TOEIC"
+    }
+  },
+  "ilr-scale": {
+    "label": {
+      "header": "ILR scale"
+    }
+  },
+  "toefl": {
+    "label": {
+      "select-item": "TOEFL"
+    }
+  },
+  "resume-education-data": {
+    "label": {
+      "header": "Education {index}"
+    }
+  },
+  "resume-education-campus": {
+    "label": {
+      "header": "Institute"
+    },
+    "message": {
+      "description": "The institution where this education took place."
+    }
+  },
+  "resume-education-degree": {
+    "label": {
+      "header": "Degree"
+    },
+    "message": {
+      "description": "The degree that you will receive or have received from this institute."
+    }
+  },
+  "resume-education-start": {
+    "label": {
+      "header": "Start date"
+    },
+    "message": {
+      "description": "The date when you started this education."
+    }
+  },
+  "resume-education-end": {
+    "label": {
+      "header": "End date"
+    },
+    "message": {
+      "description": "The date when you graduated or expect to graduate."
+    }
+  },
+  "resume-education-grade": {
+    "label": {
+      "header": "Grade"
+    },
+    "message": {
+      "description": "Your GPA. Don't include if it's a bad one."
+    }
+  },
+  "resume-education-description": {
+    "label": {
+      "header": "Description"
+    },
+    "message": {
+      "description": "More details on your education. Try to keep it short as possible. Include things such as honors classes, achievements, etc."
+    }
+  },
+  "resume-skill-data": {
+    "label": {
+      "header": "Skill {index}"
+    }
+  },
+  "resume-skill-skill": {
+    "label": {
+      "header": "Skill",
+      "placeholder": "No skill selected"
+    },
+    "message": {
+      "description": "Name of skill."
+    }
+  },
+  "resume-skill-level": {
+    "label": {
+      "header": "Level",
+      "placeholder": "No level selected"
+    },
+    "message": {
+      "description": "Your proficiency level in this skill."
+    }
+  },
+  "share-resume": {
+    "label": {
+      "menu-item": "Share"
+    }
+  },
+  "manage-resume-links": {
+    "label": {
+      "header": "Public links"
+    },
+    "message": {
+      "no-links": "There are no resume links."
+    }
+  },
+  "resume-link-name": {
+    "label": {
+      "header": "Name"
+    },
+    "message": {
+      "description": "Name the link.",
+      "invalid-input": "The name field is required and must not exceed 100 characters."
+    }
+  },
+  "resume-link-created-time": {
+    "label": {
+      "header": "Time created"
+    }
+  },
+  "resume-link-last-access": {
+    "label": {
+      "header": "Last accessed",
+      "none-table-cell": "None"
+    }
+  },
+  "create-resume-link": {
+    "label": {
+      "button": "Create",
+      "header": "New public link"
+    }
+  },
+  "resume-link-actions": {
+    "label": {
+      "header": "Actions"
+    }
+  },
+  "close-resume-link-url": {
+    "label": {
+      "button": "Close"
+    }
+  },
+  "resume-link-accesses": {
+    "label": {
+      "header": "Accesses of {name}"
+    },
+    "message": {
+      "no-accesses": "There are no accesses.",
+      "fetching": "Loading...",
+      "no-more": "No more entries."
+    }
+  },
+  "close-resume-link-accesses": {
+    "label": {
+      "button": "Close"
+    }
+  },
+  "resume-link-access-index": {
+    "label": {
+      "header": "Number"
+    }
+  },
+  "resume-link-access-time": {
+    "label": {
+      "header": "Time"
+    }
+  },
+  "fetch-next-resume-link-accesses": {
+    "label": {
+      "link": "Load more"
+    }
+  },
+  "delete-resume-link": {
+    "label": {
+      "header": "Delete public link",
+      "button": "Yes"
+    },
+    "message": {
+      "confirmation": "This action cannot be undone. Are you sure you want to delete {name}?"
+    }
+  },
+  "cancel-delete-resume-link": {
+    "label": {
+      "button": "Cancel"
+    }
+  },
+  "close-resume-links": {
+    "label": {
+      "button": "Close"
+    }
+  },
+  "resume-requests": {
+    "message": {
+      "no-more": "No more requests available."
+    }
+  },
+  "manage-resume-request-forms": {
+    "label": {
+      "link": "Manage forms",
+      "header": "Manage forms"
+    },
+    "message": {
+      "no-forms": "There are no available forms."
+    }
+  },
+  "resume-request-form-name": {
+    "label": {
+      "header": "Name"
+    },
+    "message": {
+      "description": "Name this form something unique.",
+      "invalid-input": "Name must be at least 1 character but not over 100 characters and contains only a to z, 0 to 9 and -._."
+    }
+  },
+  "resume-request-form-owner-name": {
+    "label": {
+      "header": "Owner's Name"
+    },
+    "message": {
+      "description": "Name of this form's owner. Usually this will be your full name. It will show on the form.",
+      "invalid-input": "The owner's name must be at least 1 character but not exceed 100 characters."
+    }
+  },
+  "resume-request-form-preferred-languages": {
+    "label": {
+      "header": "Preferred languages"
+    },
+    "message": {
+      "description": "The preferred languages for this form. This will tell the requesters which language(s) they should use to contact you.",
+      "invalid-input": "The value must have at least 1 language but not over 10."
+    }
+  },
+  "resume-request-form-create-at": {
+    "label": {
+      "header": "Created time"
+    }
+  },
+  "resume-request-form-actions": {
+    "label": {
+      "header": "Actions"
+    }
+  },
+  "close-manage-resume-request-forms": {
+    "label": {
+      "button": "Close"
+    }
+  },
+  "create-resume-request-form": {
+    "label": {
+      "link": "Create",
+      "header": "New form",
+      "button": "Create"
+    },
+    "message": {
+      "duplicated-name": "Name '{name}' is already used."
+    }
+  },
+  "cancel-create-resume-request-form": {
+    "label": {
+      "button": "Cancel"
+    }
+  },
+  "language-selector": {
+    "label": {
+      "placeholder": "Choose a language to add..."
+    }
+  },
+  "view-resume-request-form-url": {
+    "label": {
+      "title": "URL of {name}"
+    }
+  },
+  "close-resume-request-form-url": {
+    "label": {
+      "button": "Close"
+    }
+  },
+  "cancel-confirmation": {
+    "label": {
+      "button": "Cancel"
+    }
+  },
+  "delete-resume-request-form": {
+    "label": {
+      "header": "Delete form"
+    },
+    "message": {
+      "description": "This action cannot be undone. Are you sure you want to delete {name}?"
+    }
+  },
+  "accept-confirmation": {
+    "label": {
+      "button": "Yes"
+    }
+  },
+  "edit-resume-request-form": {
+    "label": {
+      "header": "Edit form"
+    }
+  },
+  "update-resume-request-form": {
+    "label": {
+      "button": "Update"
+    }
+  },
+  "request-resume": {
+    "message": {
+      "back-warning": "All filled data in the current step will be lost. Are you sure you want to proceed?"
+    }
+  },
+  "request-resume-company": {
+    "label": {
+      "header": "Company",
+      "review-header": "Company",
+      "empty": "Unspecified"
+    }
+  },
+  "request-resume-country": {
+    "label": {
+      "review-header": "Country"
+    }
+  },
+  "request-resume-subdivision": {
+    "label": {
+      "review-header": "State"
+    }
+  },
+  "request-resume-address": {
+    "label": {
+      "header": "Address",
+      "review-header": "Address",
+      "empty": "Unspecified"
+    }
+  },
+  "request-resume-position": {
+    "label": {
+      "header": "Position",
+      "review-header": "Position",
+      "empty": "Unspecified"
+    }
+  },
+  "request-resume-position-type": {
+    "label": {
+      "header": "Type",
+      "review-header": "Employment type",
+      "empty": "Unspecified"
+    }
+  },
+  "request-resume-salary-min": {
+    "label": {
+      "review-header": "Minimum salary"
+    }
+  },
+  "request-resume-salary-max": {
+    "label": {
+      "review-header": "Maximum salary"
+    }
+  },
+  "review-resume-request": {
+    "label": {
+      "button": "Review",
+      "data-placeholder": "Unspecified"
+    },
+    "message": {
+      "description": "Is the following information correct?"
+    }
+  },
+  "request-resume-contact-name": {
+    "label": {
+      "review-header": "Contact name"
+    }
+  },
+  "request-resume-contact-company": {
+    "label": {
+      "review-header": "Contact company",
+      "review-placeholder": "Same as the company to be worked with."
+    }
+  },
+  "request-resume-contact-email": {
+    "label": {
+      "review-header": "Email address"
+    }
+  },
+  "permanent-employment": {
+    "label": {
+      "header": "Permanent"
+    }
+  },
+  "fixedterm-employment": {
+    "label": {
+      "header": "Fixed-term"
+    }
+  },
+  "request-resume-salary": {
+    "label": {
+      "header": "Salary"
+    }
+  },
+  "request-resume-response-culture": {
+    "label": {
+      "review-header": "Response language"
+    }
+  },
+  "request-resume-actions": {
+    "label": {
+      "header": "Actions"
+    }
+  },
+  "form-modal": {
+    "label": {
+      "cancel-button": "Cancel"
+    }
+  },
+  "resume-request-details": {
+    "label": {
+      "title": "Request details",
+      "accept-button": "Accept",
+      "reject-button": "Reject",
+      "unspecified-data": "Unspecified",
+      "details-tab": "Details",
+      "description-tab": "Description"
+    }
+  },
+  "resume-request-company": {
+    "label": {
+      "title": "Company"
+    }
+  },
+  "resume-request-address": {
+    "label": {
+      "title": "Address"
+    }
+  },
+  "resume-request-position": {
+    "label": {
+      "title": "Position"
+    }
+  },
+  "resume-request-employment": {
+    "label": {
+      "title": "Employment type"
+    }
+  },
+  "resume-request-salary": {
+    "label": {
+      "title": "Salary"
+    }
+  },
+  "resume-request-contact-name": {
+    "label": {
+      "title": "Contact name"
+    }
+  },
+  "resume-request-contact-company": {
+    "label": {
+      "title": "Contact company"
+    }
+  },
+  "resume-request-response-culture": {
+    "label": {
+      "title": "Reply language"
+    }
+  },
+  "resume-request-rejection": {
+    "label": {
+      "title": "Reject"
+    }
+  },
+  "resume-request-rejection-contact-email": {
+    "label": {
+      "title": "Contact email"
+    },
+    "message": {
+      "description": "We provide the requester with your email address so they can contact you. Leave this empty if you don't want to be contacted.",
+      "invalid-input": "The contact email is invalid."
+    }
+  },
+  "resume-request-rejection-response": {
+    "label": {
+      "title": "Response"
+    },
+    "message": {
+      "description": "Write an additional message to the requester.",
+      "invalid-input": "The response must not exceed 10,000 characters."
+    }
+  },
+  "resume-request-acception": {
+    "label": {
+      "title": "Accept"
+    }
+  },
+  "resume-request-acception-resume": {
+    "label": {
+      "title": "Resume",
+      "placeholder": "No resume selected",
+      "no-resumes": "No resumes match reply language"
+    },
+    "message": {
+      "description": "The resume which you want to send to the requester.",
+      "invalid-input": "The resume field is required."
+    }
+  },
+  "request-list": {
+    "label": {
+      "empty-list": "There are no requests."
+    }
+  },
+  "user-navbar": {
+    "label": {
+      "resumes": "Resumes",
+      "sign-out": "Sign out",
+      "global-data": "Data"
+    }
+  },
+  "field-editor": {
+    "message": {
+      "no-parent": "No parent data has been selected."
+    }
+  },
+  "name-editor": {
+    "message": {
+      "first-name": "Your first name.",
+      "middle-name": "Your middle name.",
+      "last-name": "Your last name."
+    }
+  },
+  "data-editor": {
+    "message": {
+      "no-input": "Please enter a value, remove this field or use a parent value.",
+      "unsupported-alphabets": "The value contains unsupported one or more unsupported characters.",
+      "string-too-long": "The value must not exceed {max} characters."
+    },
+    "label": {
+      "name-first-name": "First name",
+      "name-middle-name": "Middle name",
+      "name-last-name": "Last name",
+      "experience-location": "Location",
+      "address-region": "Location",
+      "skill-novice": "Basic",
+      "skill-expert": "Expert",
+      "education-region": "Location",
+      "website": "Website",
+      "experience": "Experience",
+      "education": "Education",
+      "skill": "Skill",
+      "language": "Language",
+      "certificate": "Certificate",
+      "certificate-ordered": "Certificate {index}",
+      "certificate-name": "Name",
+      "certificate-obtained": "Date obtained"
+    }
+  },
+  "global-modal": {
+    "label": {
+      "title": "Import data",
+      "import-button": "Import"
+    }
+  },
+  "global-import-list": {
+    "message": {
+      "placeholder": "There is no data available to import.",
+      "no-resumes": "There are no other resumes to import."
+    }
+  },
+  "wizard-modal": {
+    "label": {
+      "cancel-button": "Cancel"
+    }
+  },
+  "extract-resume-data": {
+    "message": {
+      "no-fields": "There is no data available to import."
+    }
+  },
+  "headline-editor": {
+    "message": {
+      "value": "Your headline text. Usually it will be your current position (e.g. Software Engineer)."
+    }
+  },
+  "experience-editor": {
+    "message": {
+      "region-description": "Where are you working this position?",
+      "end-description": "The last date which you worked this position. Do not specify this if this is your current position."
+    }
+  },
+  "datemonth-selector": {
+    "label": {
+      "month": "Month",
+      "year": "Year"
+    }
+  },
+  "division-selector": {
+    "label": {
+      "country": "Country",
+      "division": "State"
+    }
+  },
+  "address-editor": {
+    "message": {
+      "region-description": "Area of your current residence."
+    }
+  },
+  "telephone-editor": {
+    "message": {
+      "value-description": "Your cell phone number."
+    }
+  },
+  "telephone-input": {
+    "message": {
+      "invalid-number": "That is not a valid phone number."
+    }
+  },
+  "github-editor": {
+    "message": {
+      "username-too-long": "The username must not exceed 39 characters.",
+      "invalid-username": "Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen."
+    }
+  },
+  "summary-editor": {
+    "message": {
+      "description": "Summary about you. Try to keep it short as possible and specify only information that is relevant to the application."
+    }
+  },
+  "campus-browser": {
+    "label": {
+      "modal-title": "Browse educational institute",
+      "modal-cancel": "Cancel",
+      "modal-ok": "OK",
+      "campus-name": "Name"
+    },
+    "message": {
+      "no-campuses": "There are no institutes in the selected area.",
+      "no-area-selected": "Please select an area.",
+      "fetching": "Fetching institutes..."
+    }
+  },
+  "language-editor": {
+    "label": {
+      "proficiency-modal-title": "Language proficiency",
+      "proficiency-type-placeholder": "No value selected",
+      "toeic-display": "TOEIC {score}",
+      "ielts-academic-display": "IELTS {score} (Academic)",
+      "ielts-general-display": "IELTS {score} (General)",
+      "ilr-no-proficiency": "No proficiency",
+      "ilr-elementary": "Basic proficiency",
+      "ilr-limited-working": "Limited working proficiency",
+      "ilr-professional-working": "Professional working proficiency",
+      "ilr-full-professional": "Expert proficiency",
+      "ilr-native": "Native or bilingual proficiency",
+      "ilr-placeholder": "No value selected",
+      "proficiency-type-label": "Scale type",
+      "ilr-label": "ILR Scale",
+      "toeic-score-label": "TOEIC score",
+      "ielts-module-label": "IELTS module",
+      "ielts-academic": "Academic",
+      "ielts-general": "General Training",
+      "ielts-module-placeholder": "No module selected",
+      "ielts-score-label": "Overall Band Score",
+      "ielts-score-placeholder": "No score selected",
+      "toefl-display": "TOEFL {score}",
+      "toefl-score-label": "TOEFL score",
+      "edit-cancel": "Cancel",
+      "edit-ok": "OK"
+    },
+    "message": {
+      "proficiency-type-description": "Which type of proficiency scale do you want to use?",
+      "proficiency-type-no-selected": "No scale type has been selected.",
+      "ilr-description": "The language's ILR scale.",
+      "toeic-score-description": "Your TOEIC score.",
+      "ielts-modula-description": "The IELTS module that you have taken.",
+      "ilr-no-selected": "No value has been selected.",
+      "toeic-invalid": "The value is not a valid TOEIC score.",
+      "ielts-module-no-selected": "No value has been selected.",
+      "ielts-score-description": "Your Overall Band Score.",
+      "ielts-score-no-selected": "No value has been selected.",
+      "toefl-score-description": "Your TOEFL score.",
+      "toefl-invalid": "The value is not a valid TOEFL score."
+    }
+  },
+  "global-editor": {
+    "message": {
+      "no-type-selected": "Please select the data type you want to edit.",
+      "no-globals": "No common data available to edit. The common data will appears here when you imported data from one resume to another resume."
+    },
+    "label": {
+      "go-to-top": "Go to top",
+      "data-language": "Data language",
+      "default-language": "Default",
+      "disabled-field": "Disabled",
+      "actions": "Actions",
+      "edit-action": "Edit",
+      "save": "Save",
+      "fallback-photo": "Use {lang}"
+    }
+  },
+  "linkedin-editor": {
+    "message": {
+      "invalid-username": "The username must contain 3 - 100 characters and contain only letters/numbers and -."
+    }
+  },
+  "header": {
+    "label": {
+      "account-templates": "Templates",
+      "resend-email": "Verify email address",
+      "payment-receiving-methods": "Payment receiving",
+      "templates": "Templates"
+    }
+  },
+  "account-templates": {
+    "message": {
+      "no-templates": "You don't have any templates.",
+      "require-verified": "This feature is only available once you verify your email address.",
+      "limit-reached": "You have reached the template limit. Please contact support@cloudsume.com to request more.",
+      "new-registration-name": "Template name.",
+      "invalid-registration-name": "The name must be at least 1 character but not exceed 100 characters.",
+      "new-registration-desc": "Template description.",
+      "invalid-registration-desc": "Description must not exceed 10,000 characters.",
+      "new-registration-website": "Template website.",
+      "invalid-registration-website": "That URL is invalid.",
+      "new-registration-culture": "Language of the template. This cannot be changed once the template is created.",
+      "invalid-registration-culture": "There is no language selected.",
+      "new-registration-jobs": "Jobs which this template is designed for.",
+      "invalid-registration-jobs": "There must be 1-10 applicable jobs.",
+      "change-category-new-category": "New category you want to change to.",
+      "change-category-new-category-no-selection": "This field is required.",
+      "change-category-new-category-no-payments": "You must have at least one working payment receiving method before switch to paid category.",
+      "terms-summary": "Commission fee for selling template on Cloudsumé is {fee}. Our financial partner you use may charge additional fees from you. You should read their documents to see how much fee and when they will charge. This fee will be pay by you, not us.",
+      "update-description-error": "Unexpected error occurred while updating description. When you contact us about this error please include the following message: {error}",
+      "fetch-jobs-error": "An unexpected error occurred while loading job data: {error}",
+      "register-error": "An unexpected error occurred while registering template: {error}",
+      "new-registration-country": "Designed country of the resume using this template. This cannot be changed once the template is created.",
+      "new-registration-country-error": "Target country is required.",
+      "rename-name": "The new name for this template.",
+      "rename-name-invalid": "The value must be between 1 to 100 characters.",
+      "rename-error": "An unexpected error occurred during renaming: {error}",
+      "require-non-guest-account": "This feature is not available for guest account.",
+      "preview-job": "The sample data you want to use as a preview. The system will use the data from the default job if the data for the selected job does not exists. If the data for the default job does not exists the system will use built-in data. You can customize this data on Sample data page.",
+      "update-website-error": "An unexpected error occurred while updating the website: {error}",
+      "update-jobs-error": "An unexpected error occurred while updating the applicable jobs: {error}"
+    },
+    "label": {
+      "new": "New",
+      "sort-last-updated": "Last updated",
+      "sort-least-updated": "Least updated",
+      "new-registration-title": "New template",
+      "new-registration-name": "Name",
+      "new-registration-desc": "Description",
+      "new-registration-website": "Website",
+      "new-registration-culture": "Language",
+      "new-registration-culture-ph": "No language selected",
+      "new-registration-jobs": "Applicable jobs",
+      "new-registration-jobs-browse": "Choose a job",
+      "new-registration-cancel": "Cancel",
+      "new-registration-submit": "Create",
+      "workspace": "Workspace",
+      "no-preview": "No preview available",
+      "published": "Published",
+      "update-prices": "Update prices",
+      "price-placeholder": "Price",
+      "price-cancel": "Cancel",
+      "price-save": "Save",
+      "change-category": "Change category",
+      "change-category-new-category": "New category",
+      "private-category": "Private template",
+      "free-category": "Free",
+      "paid-category": "Paid",
+      "category-placeholder": "No category selected",
+      "update-description": "Update description",
+      "update-description-edit-tab": "Edit",
+      "update-description-preview-tab": "Preview",
+      "new-registration-country": "Target country",
+      "rename-template": "Rename",
+      "rename-name": "New name",
+      "preview-job": "Sample data",
+      "system-preview-job": "Always use built-in data",
+      "update-website": "Update website",
+      "update-jobs": "Update applicable jobs"
+    }
+  },
+  "template-editor": {
+    "label": {
+      "name-ph": "No data",
+      "file-column": "File",
+      "back-link": "Back",
+      "new-file": "New",
+      "top-link": "Back to top",
+      "save": "Save",
+      "new-title": "New file",
+      "new-name": "Name",
+      "new-upload": "Import",
+      "new-upload-ph": "No file chosen",
+      "new-upload-browse": "Browse",
+      "delete-file": "Delete",
+      "save-close": "Close",
+      "save-publish": "Publish",
+      "locale-ph": "No data",
+      "preview-result": "Result",
+      "preview-source": "Source",
+      "save-options": "Options",
+      "save-options-applicable-data": "Applicable data",
+      "applicable-data-title": "Applicable data",
+      "type-item-enabled": "Enabled",
+      "applicable-data-cancel": "Cancel",
+      "applicable-data-save": "Save",
+      "save-options-experience": "Experience options",
+      "experience-options-title": "Experience options",
+      "markdown-options-paragraph": "Paragraph end",
+      "markdown-options-list-options": "List options",
+      "markdown-options-cancel": "Cancel",
+      "markdown-options-save": "Save",
+      "save-options-education": "Education options",
+      "education-options-title": "Education options",
+      "save-options-skill": "Skill options",
+      "skill-options-title": "Skill options",
+      "skill-options-grouping": "Group by",
+      "skill-options-level": "Level",
+      "skill-options-none": "None",
+      "skill-options-cancel": "Cancel",
+      "skill-options-save": "Save",
+      "publish-title": "Publish",
+      "publish-release-note": "Release note",
+      "publish-publish": "Publish",
+      "new-folder": "New folder",
+      "new-folder-title": "New folder",
+      "new-folder-name": "Name",
+      "save-options-preview-job": "Preview data",
+      "preview-job-title": "Preview data",
+      "preview-job-job": "Job",
+      "preview-job-unspecify": "Unspecify"
+    },
+    "message": {
+      "workspace-empty": "There are no files available.",
+      "no-file-selected": "Please select the file you want to edit.",
+      "new-name": "Name of the file you want to create.",
+      "new-name-blank": "Name is required.",
+      "new-name-too-long": "Name is too long.",
+      "new-name-invalid": "That name contains one or more invalid characters.",
+      "new-name-duplicated": "The specified name already exists.",
+      "new-upload": "Select a file to import from your computer. Don't select a file if you want to create an empty text file.",
+      "new-upload-too-large": "The total file size must not exceed 5 MB.",
+      "no-editor": "The selected file cannot be edited here.",
+      "name-description": "Full name of a person.",
+      "headline-description": "Headline text. Usually it will be current position of that person (e.g. Software Engineer).",
+      "address-description": "Current address of that person.",
+      "mobile-description": "Mobile number of that person.",
+      "email-description": "Email address of that person.",
+      "linkedin-description": "LinkedIn username of that person.",
+      "github-description": "GitHub username of that person.",
+      "photo-description": "Photo of that person.",
+      "summary-description": "Summary about professional experience of that person.",
+      "experience-description": "Professional experience specific to a position where that person is working.",
+      "education-description": "Education of that person.",
+      "skill-description": "A specific skill that person can perform.",
+      "language-description": "Language that person can communicate in.",
+      "markdown-options-paragraph": "How to end a paragraph. Default is a blank line (\\n\\n).",
+      "markdown-options-list-options": "Options for itemize environment.",
+      "markdown-options-invalid-paragraph": "The value must not exceed 1,000 characters.",
+      "markdown-options-invalid-list-options": "The value must not exceed 1,000 characters.",
+      "skill-options-grouping": "Control how skill data is passing to the template.",
+      "publish-info": "Template publishing will allow other people to use this template to build their resumes. Only you who can use this template if it is a private template. Once published some retrictions will be apply to this template:",
+      "publish-applicable-jobs-restriction": "Cannot remove jobs from applicable jobs. You still can add more jobs. Keep in mind that the maximum applicable jobs per template is 10.",
+      "publish-category-restriction": "The category of template cannot be changed for any published versions. Example case is if the published versions is a free template and you change it to paid version the result is other users still be able to use the free versions.",
+      "publish-success": "Template published successfully.",
+      "preview-delete-error": "Cannot delete {name} due to unexpected error.",
+      "preview-upload-error": "Cannot upload {name} due to unexpected error.",
+      "preview-applicable-data-error": "Cannot update applicable data due to unexpected error.",
+      "preview-rebuild-error": "Cannot rebuild the template due to unexpected error.",
+      "preview-thumbnail-error": "Cannot load preview on page {page} due to unexpected error.",
+      "paid-template-prerequisites": "You need to define price for this template and have at least one working payment receiving method before publish a paid template.",
+      "new-folder-name": "Name of this folder. You must add a file or folder to this directory otherwise the folder will not be kept.",
+      "reserved-file": "Name is now allowed.",
+      "fetch-asset-content-error": "Failed to load asset content: {error}",
+      "website-description": "A URL of personal website (e.g. blog).",
+      "preview-job-description": "Job to use as a sample data.",
+      "load-job-error": "An unexpected error occurred while loading job {job}: {error}",
+      "preview-job-update-error": "An unexpected error occurred while updating preview job: {error}",
+      "publish-preview-restriction": "Cannot change the preview of published version.",
+      "certificate-description": "A certificate that person have."
+    }
+  },
+  "thumbnails-viewer": {
+    "label": {
+      "page-number": "Page {num}"
+    }
+  },
+  "template-viewer": {
+    "label": {
+      "category-free": "Free",
+      "category-private": "Private",
+      "category-paid": "Paid",
+      "preview-loading": "Loading..."
+    },
+    "message": {
+      "preview-load-error": "An unexpected error occurred while loading {url}: {error}"
+    }
+  },
+  "links-manager": {
+    "message": {
+      "no-license": "All links will not work due to you don't have a license for the template of this resume. You can buy a license by download this resume.",
+      "copy-link-error": "Failed to copy link due to browser restriction. Please copy it manually.",
+      "link-copied": "Link copied!",
+      "new-censorship": "Select data you want to remove from the resume when download with this link.",
+      "new-link-error": "An unexpected error occurred while creating a link: {error}",
+      "fetch-resume-error": "An unexpected error occurred while loading resume: {error}",
+      "fetch-data-error": "An unexpected error occurred while loading data for locale {locale}: {error}",
+      "fetch-template-error": "An unexpected error occurred while loading template {template}: {error}",
+      "check-downloadable-error": "An unexpected error occurred while checking if resume is downloadable: {error}",
+      "fetch-accesses-error": "An unexpected error occurred while loading access history: {error}",
+      "update-censorship-error": "An unexpected error occurred while updating link censorship: {error}"
+    },
+    "label": {
+      "copy-link": "Copy",
+      "edit-censorships-title": "Select data to censor",
+      "new-censorship-label": "Censorship",
+      "new-censorship-edit": "Edit",
+      "data-disabled": "This data is disabled",
+      "access-histories": "Access histories",
+      "delete": "Delete",
+      "view-url": "View URL",
+      "edit-censorship": "Edit censorship"
+    }
+  },
+  "resume-editor": {
+    "message": {
+      "link-warning": "Public links on this resume will not work due to you don't have a license for selected template. You can buy a license by download your resume after this.",
+      "template-purchase-success": "Template of this resume has been purchased successfully. You can download your resume now.",
+      "template-purchase-failed": "Template purchasing failed for unknown reason. Please contact us to investigate the problem or ask for refund.",
+      "unsaved-data-warning": "All unsaved data will be lost if you continue on purchasing.",
+      "fetch-resume-error": "Unexpected error occurred while loading resume {resume}. Please include the following message when contacting us: {error}",
+      "fetch-global-data-error": "An unexpected error occurred while loading global data: {error}",
+      "change-template-error": "An unexpected error occurred while changing template: {error}",
+      "tutorial-actions-description": "Change the template, download, share or rename your resume by clicking on a three-dots button next to the resume name.",
+      "tutorial-import-description": "Reuse any data from your other resumes by clicking on a button on the bottom right of that data.",
+      "tutorial-global-description": "Edit the imported data from other resumes by clicking on Data on the top of the page. Any change to those data will update any effected resume for you automatically.",
+      "invalid-update": "{type} has some errors: {error}",
+      "tutorial-change-template-note": "Keep in mind that you cannot change to the template with difference language. However, you can create a new resume and import data to it."
+    },
+    "label": {
+      "change-template-title": "Change template",
+      "change-template": "Change template",
+      "rename-resume": "Rename",
+      "tutorial-title": "How to edit your resume",
+      "tutorial-close": "Close"
+    }
+  },
+  "payment-provider-list": {
+    "label": {
+      "new": "New",
+      "create": "Create",
+      "new-title": "New payment receiving",
+      "stripe": "Stripe",
+      "new-select-button": "Use this method",
+      "new-stripe-title": "Stripe",
+      "new-stripe-country": "Country",
+      "setup-required": "Setup required",
+      "setup": "Setup",
+      "processing": "Processing"
+    },
+    "message": {
+      "new-description": "Create a new payment receiving method to receive a payment.",
+      "require-email-confirmation": "This feature is only available once you verify your email address.",
+      "new-stripe-country": "The country in which you have a citizenship, or in which your business is legally established.",
+      "new-stripe-no-country": "The country field is required.",
+      "setup-expired": "The previous setup link for {method} has been expired. You can continue on setup {method} by clicking on its Setup button."
+    }
+  },
+  "currency-selector": {
+    "label": {
+      "placeholder": "Currency"
+    }
+  },
+  "modal": {
+    "label": {
+      "cancel": "Cancel",
+      "ok": "OK"
+    }
+  },
+  "purchase-template": {
+    "label": {
+      "title": "Purchase template",
+      "select-price": "Select price",
+      "feedback-title": "What made you cancel?",
+      "too-expensive": "It's too expensive",
+      "no-cards": "I don't have a credit/debit card",
+      "mistaken-free": "I thought this template was free",
+      "untrusted": "I don't trust Cloudsumé",
+      "payment-not-working": "I cannot make a payment",
+      "feedback-select": "Please select a reason"
+    },
+    "message": {
+      "introduction": "In order to download {resume} resume you need to purchase a license for template {template}. A license will allows you to download unlimited PDF from any resume using this template. This is a one-time purchase and non-refundable so please build your resume until it is completed to see the final result before making a purchase.",
+      "fetch-template-error": "An unexpected error occurred while loading template {template}: {error}",
+      "unverified-warning": "You may lose access to any purchased template because your email address is unverified. We strongly recommend to verify your account before making a purchase. If you are making a purchase with an unverified email address you agree that you may lose access to any template you have purchased.",
+      "temporary-warning": "You may lose access to any purchased template because your account is a temporary account. We strongly recommend to convert your account to a permanent account before making a purchase. If you are making a purchase with a temporary account you agree that you may lose access to any template you have purchased.",
+      "secured-by": "Secured by",
+      "captcha-error": "CAPTCHA validation failed. Please reload this page and try again.",
+      "cancel-feedback-error": "An unexpected error occurred while sending the feedback: {error}"
+    }
+  },
+  "resume-list": {
+    "message": {
+      "template-purchase-success": "The template {template} has been purchased. You can download {resume} resume now.",
+      "template-purchase-failed": "Template purchasing has been failed for unknown reason. Please contact our customer support for investigation or asking for refund.",
+      "welcome-paragraph-1": "Stay in touch with us so you don't miss out on any updates.",
+      "cancel-transfer-warning": "This action cannot be undone. Are you sure you want to cancel data transfer? You will lose all of resumes and data on your temporary account forever.",
+      "transfer-info": "You can transfer all resumes and data from your temporary account to this account.",
+      "transfer-error": "An unexpected error occurred while transferring data from account {account}. Please contact us for further assistance.",
+      "transfer-conflict": "Data transfer cannot be proceeded due to your account already contains some data. You can sign out from this account and sign up for a new account to continue with data transfer.",
+      "welcome-guest-warning": "Don't lose your resume! Be sure to convert to a permanent account to avoid losing your resume, data, or any purchased templates.",
+      "welcome-account-conversion-mobile": "By clicking on a menu button on the top right, then click on Account and then select Convert to a permanent account. You can convert this temporary account to a permanent account.",
+      "welcome-account-conversion-desktop": "By clicking on Account in the top right, then select Convert to a permanent account. You can convert this temporary account to a permanent account.",
+      "fetch-template-error": "An unexpected error occurred while loading the information for template {template}: {error}",
+      "fetch-license-error": "An unexpected error occurred while loading a license for template {template}: {error}",
+      "fetch-thumbnail-error": "An unexpected error occurred while loading a thumbnail for resume {resume}: {error}"
+    },
+    "label": {
+      "welcome-title": "Welcome to Cloudsumé!",
+      "follow-twitter": "Follow us on Twitter",
+      "like-facebook": "Like us on Facebook",
+      "transfer-title": "Transfer data",
+      "cancel-transfer-title": "Cancel transfer",
+      "cancel-transfer-confirm": "Cancel data transfer",
+      "transfer-confirm": "Transfer",
+      "transfer-conflict": "Data conflict",
+      "transfer-signout": "Sign out",
+      "join-reddit": "Ask for help on Reddit",
+      "no-accesses": "Shared with the public"
+    }
+  },
+  "payment-receiving-methods": {
+    "message": {
+      "captcha-error": "Failed to load CAPTCHA. Please reload this page and try again.",
+      "setup-captcha-error": "Invalid CAPTCHA challenge. Please reload this page and click on a link to navigate to other page then comeback and try again.",
+      "setup-unknown-error": "Unexpected error occurred while getting a setup link. Please include the following message when contacting us: {error}",
+      "require-non-guest-account": "This feature is not available for guest account.",
+      "stripe-country-warning": "This cannot be changed so DO NOT create if your country is not available and contact us for further assistance."
+    }
+  },
+  "template-details": {
+    "label": {
+      "description": "Description",
+      "changes": "What's new",
+      "reviews": "Reviews",
+      "information": "Information"
+    },
+    "message": {
+      "load-releases-error": "Failed to load releases information for template {template}: {error}",
+      "initial-release": "Initial version.",
+      "preview-load-error": "An unexpected error occurred while loading {url}: {error}"
+    }
+  },
+  "template-browser": {
+    "label": {
+      "create-resume": "Create resume",
+      "close": "Close"
+    },
+    "message": {
+      "no-templates": "No any templates available.",
+      "fetch-template-error": "An unexpected error occurred while loading template {template}: {error}",
+      "fetch-license-error": "An unexpected error occurred while loading a license for template {template}: {error}"
+    }
+  },
+  "template-actions": {
+    "label": {
+      "copy-link": "Copy link",
+      "tos": "Terms of Service",
+      "privacy-policy": "Privacy Policy"
+    },
+    "message": {
+      "copy-link-error": "Unexpected error occurred while copying link: {error}",
+      "link-copied": "Link to this template has been copied to clipboard.",
+      "maximum-resume-reached": "You already reached maximum number of resumes.",
+      "captcha-error": "CAPTCHA validation failed. Please reload this page and try again.",
+      "create-guest-session-error": "An unexpected error occurred while setting up a guest session: {error}",
+      "write-guest-token-error": "Failed to store token for guest session. Please check your browser settings.",
+      "tos-acceptant": "I agree to the {tos} and {privacy}."
+    }
+  },
+  "template": {
+    "message": {
+      "load-registration-error": "Unexpected error occurred while loading template registration: {error}",
+      "load-releases-error": "Unexpected error occurred while loading releases data: {error}",
+      "not-releases": "This template is not releases yet.",
+      "load-license-error": "Unexpected error occurred while loading template license: {error}",
+      "load-resume-error": "Unexpected error occurred while loading resumes: {error}"
+    }
+  },
+  "education-editor": {
+    "message": {
+      "region-description": "Location of the institute."
+    }
+  },
+  "photo-editor": {
+    "message": {
+      "file-too-large": "The photo is larger than 512 kB."
+    },
+    "label": {
+      "loading": "Loading..."
+    }
+  },
+  "parent-selector": {
+    "label": {
+      "no-photo": "No photo",
+      "default-photo": "Default photo",
+      "default-summary": "Default summary",
+      "no-summary": "No summary",
+      "no-parent": "Disable parent data"
+    },
+    "message": {
+      "certificate-name": "Name of the certificate.",
+      "certificate-obtained": "The date when you obtained this certificate."
+    }
+  },
+  "property-viewer": {
+    "message": {
+      "load-image-error": "An unexpected error occurred while loading image from '{url}': {error}"
+    },
+    "label": {
+      "loading-image": "Loading..."
+    }
+  },
+  "website-editor": {
+    "message": {
+      "description": "URL of your personal website (e.g. blog).",
+      "invalid-input": "The value is not a valid URL of the website."
+    }
+  },
+  "landing": {
+    "message": {
+      "hero-title": "Professional Resume Builder",
+      "hero-message": "Create, Edit, and Securely Save Your Resume Right on Our Platform, Even on Your Phone!",
+      "highlight-title": "Not Just a Resume Builder, But a Platform!",
+      "highlight-message": "We are an all-encompassing platform that connects non-LaTeX writers with LaTeX writers by providing incentives for them to share professional templates.",
+      "highlight-free": "The platform is accessible at no cost.",
+      "highlight-hidden-cost": "Unlike our competitor, we do not impose a subscription service on our customers. Our paid template, in addition to our \"Free Template\", is only a one-time fee, allowing us to give back to the LaTeX writing community.",
+      "highlight-privacy": "We understand the importance of data privacy and make it our mission to protect it.",
+      "cloud-storage-title": "Cloud Storage for Your Resumes",
+      "cloud-storage-message-1": "With Cloudsumé, you no longer need to store your resumes on file-hosting services.",
+      "cloud-storage-message-2": "You can also update your resumes whenever you want, including on your smartphone, without the need to download any additional apps.",
+      "switch-template-title": "Change The Template Anytime You Want",
+      "switch-template-message": "Giving your resume a new look is as simple as a few clicks; by changing the template, you can create a new resume with all of your information intact.",
+      "much-more-title": "And Much More",
+      "much-more-message": "Create a link to share your resume, share common data between resumes, use a country-awareness template, and take advantage of other features to help you create the perfect resume.",
+      "latex-author-title": "Do you know how to create LaTeX documents?",
+      "latex-author-message": "Join our community and earn a passive income by creating a resume template that will assist people all over the world in landing their dream job.",
+      "builtin-editor": "Built-in editor",
+      "full-xetex": "Full XeTeX",
+      "template-engine": "Powerful template engine",
+      "choice-is-yours": "The choice is yours",
+      "signup-reminder": "Ready to start?"
+    },
+    "label": {
+      "browse-templates": "Build your resume",
+      "highlight-free": "Free",
+      "highlight-hidden-cost": "No Hidden Costs",
+      "highlight-privacy": "Private and Secure",
+      "publish-template": "Publish a template"
+    }
+  },
+  "page-header": {
+    "label": {
+      "mode-resume-builder": "Resume builder",
+      "mode-template-authoring": "Template builder",
+      "guest-account": "Account",
+      "to-permanent-account": "Convert to a permanent account",
+      "sample-data": "Sample data"
+    },
+    "message": {
+      "guest-signout-warning": "You will lose access to all of your resumes forever if you sign out. However, any links to share your resume that you have created will continue to work but you will not be able to delete those links. Do you want to sign out? This action cannot be UNDONE!"
+    }
+  },
+  "job-filter": {
+    "message": {
+      "jobs-load-error": "An unexpected error occurred while loading jobs: {error}"
+    },
+    "label": {
+      "any-job": "Any job"
+    }
+  },
+  "locale-filter": {
+    "label": {
+      "any-locale": "Any language"
+    }
+  },
+  "signed-in": {
+    "message": {
+      "navbar-switch-error": "Failed to change navigation bar to resume builder due to your browser settings. Make sure you have visited your resume list after this otherwise you may not be able to transfer data from your temporary account."
+    }
+  },
+  "rename-resume": {
+    "label": {
+      "title": "Rename resume",
+      "new-name": "New name"
+    },
+    "message": {
+      "new-name-description": "A new desired name for the resume.",
+      "invalid-name": "Name must be at least 1 character but not exceed 100 characters.",
+      "rename-error": "An unexpected error occurred while renaming the resume: {error}"
+    }
+  },
+  "sample-data": {
+    "message": {
+      "fetch-job-error": "An unexpected error occurred while loading job list: {error}",
+      "fetch-data-error": "An unexpected error occurred while loading sample data: {error}",
+      "editor-placeholder": "No data has been selected.",
+      "address-region": "Value of data.address.country and data.address.region. The data.address.country will be absence if country is the same as template (e.g. template is English (United States) and the country of this field is United States).",
+      "address-street": "Value of data.address.street.",
+      "education-degree": "Value of data.education.degree.",
+      "education-description": "Value of data.education.description.",
+      "education-end": "Value of data.education.end.month and data.education.end.year. The whole data.education.end will be absence if this field is removed.",
+      "education-grade": "Value of data.education.grade.",
+      "education-institute": "Value of data.education.institute.",
+      "education-region": "Value of data.education.country and data.education.region. The data.education.country will be absence if country is the same as template (e.g. template is English (United States) and the country of this field is United States).",
+      "education-start": "Value of data.education.start.month and data.education.start.year. The whole data.education.start will be absence if this field is removed.",
+      "email": "Value of data.email.",
+      "experience-company": "Value of data.experience.company.",
+      "experience-description": "Value of data.experience.description.",
+      "experience-end": "Value of data.experience.end.month and data.experience.end.year. The whole data.experience.end will be absence if this field is removed.",
+      "experience-region": "Value of data.experience.country and data.experience.region. The data.experience.country will be absence if country is the same as template (e.g. template is English (United States) and the country of this field is United States).",
+      "experience-start": "Value of data.experience.start.month and data.experience.start.year. The whole data.experience.start will be absence if this field is removed.",
+      "experience-street": "Value of data.experience.street.",
+      "experience-title": "Value of data.experience.title.",
+      "github": "Value of data.github.",
+      "headline": "Value of data.headline.",
+      "language-language": "Value of data.language.name.",
+      "language-proficiency": "Value of data.language.proficiency.",
+      "language-comment": "Value of data.language.comment.",
+      "linkedin": "Value of data.linkedin.",
+      "mobile": "Value of data.mobile.",
+      "name-first": "Value of data.name.firstName.",
+      "name-last": "Value of data.name.lastName.",
+      "name-middle": "Value of data.name.middleName.",
+      "skill-name": "Value of data.skill.name if not grouping. Otherwise it will be a value of each item in the group.",
+      "skill-proficiency": "Value of data.skill.proficiency if not grouping. Otherwise skill name will be grouped to data.skill.novice and data.skill.expert.",
+      "summary": "Value of data.summary.",
+      "website": "Value of data.website.",
+      "photo": "Value of data.photo. The value will be a relative path to JPEG file without extension.",
+      "save-error": "An unexpected error occurred while saving the data: {error}",
+      "discard-unsaved": "All unsaved changes will be discarded. Are you sure?",
+      "certificate-name": "Value of data.certificate.name.",
+      "certificate-obtained": "Value of data.certificate.obtainedDate.month and data.certificate.obtainedDate.year."
+    },
+    "label": {
+      "job-placeholder": "Select job",
+      "locale-placeholder": "Select language",
+      "invariant-locale": "Default",
+      "save-all": "Save All",
+      "default-job": "Default",
+      "disable-parent": "Disable parent data",
+      "go-top": "Go to top",
+      "discard-changes": "Discard"
+    }
+  },
+  "no-guest": {
+    "message": {
+      "not-available": "This page is not available for a temporary account."
+    }
+  },
+  "feedback-modal": {
+    "label": {
+      "title": "Give Feedback to Cloudsumé",
+      "score-bad": "Bad",
+      "score-okay": "Okay",
+      "score-good": "Good",
+      "score": "How satisfied are you with Cloudsumé?",
+      "detail": "Tell us about your experience",
+      "detail-ph": "Please do not include any confidential or personal information in your comment",
+      "contact": "Allow us to contact you about your feedback",
+      "contact-ph": "Email Address",
+      "tos": "Terms of Service",
+      "pp": "Privacy Policy",
+      "contact-email": "Contact email"
+    },
+    "message": {
+      "tos-notice": "Your feedback will be used to improve Cloudsumé product and services. By pressing OK, you agree to our {tos} and {pp}.",
+      "captcha-error": "CAPTCHA validation failed. Please reload this page and try again.",
+      "submit-error": "An unexpected error occurred while submitting your feedback: {error}"
+    }
+  },
+  "datetime-viewer": {
+    "label": {
+      "now": "Now",
+      "one-minute": "1 minute ago",
+      "minutes": "{minutes} minutes ago",
+      "one-hour": "1 hour ago",
+      "hours": "{hours} hours ago",
+      "one-day": "1 day ago",
+      "days": "{days} days ago"
+    }
+  },
+  "resume-downloader": {
+    "label": {
+      "share-button": "Share this resume with recruiters",
+      "decline-button": "Don't share this resume"
+    },
+    "message": {
+      "error": "An unexpected error occurred while building your resume: {error}",
+      "share-agreement": "By sharing this resume with recruiters you agree that our partners will have access to your data in this resume.",
+      "consent-error": "An unexpected error occurred while updating your consent: {error}"
+    }
+  }
+}

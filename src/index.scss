@@ -1,0 +1,25 @@
+// config
+@import 'styles/config';
+
+// vendors
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+@import '~flag-icon-css/sass/flag-icon.scss';
+
+// application
+body {
+  min-height: 100vh;
+}
+
+select {
+  overflow-x: hidden;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+// utility
+.scroll-target {
+  scroll-margin-top: calc(#{$navbar-height} + #{$spacer});
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cloudsumé</title>
+    <script src="https://www.google.com/recaptcha/api.js?render=<%= process.env.CAPTCHA_KEY %>"></script>
+  </head>
+  <body class="d-flex flex-column">
+    <noscript>
+      <div class="d-flex justify-content-center p-3 bg-danger text-light">Please enable JavaScript and reload the page.</div>
+    </noscript>
+    <header id="header"></header>
+    <main id="main" class="d-flex align-items-center justify-content-center flex-grow-1">
+      <div class="spinner-border"></div>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+</html>

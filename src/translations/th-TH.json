@@ -1,0 +1,1706 @@
+{
+  "sign-in": {
+    "label": {
+      "link": "เข้าสู่ระบบ"
+    },
+    "message": {
+      "error": "มีบางอย่างผิดพลาดทำให้ไม่สามารถเข้าสู่ระบบได้",
+      "loading": "กำลังเข้าสู่ระบบ..."
+    }
+  },
+  "change-language": {
+    "label": {
+      "header": "เปลี่ยนภาษา"
+    },
+    "message": {
+      "error": "มีบางอย่างผิดพลาดทำให้ไม่สามารถเปลี่ยนภาษาได้"
+    }
+  },
+  "north-america": {
+    "label": {
+      "header": "อเมริกาเหนือ"
+    }
+  },
+  "southeast-asia": {
+    "label": {
+      "header": "เอเชียตะวันออกเฉียงใต้"
+    }
+  },
+  "sign-out": {
+    "message": {
+      "error": "มีบางอย่างผิดพลาดทำให้ไม่สามารถออกจากระบบได้"
+    }
+  },
+  "not-found": {
+    "message": {
+      "description": "ไม่พบหน้านี้"
+    }
+  },
+  "my-resumes": {
+    "message": {
+      "fetch-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านรายการเรซูเม"
+    }
+  },
+  "new-resume": {
+    "label": {
+      "header": "สร้างใหม่",
+      "link": "สร้างใหม่",
+      "modal-title": "สร้างเรซูเม"
+    },
+    "message": {
+      "description": "สร้างเรซูเมใหม่",
+      "create-error": "เกิดความผิดพลาดที่ไม่คาดคิดระหว่างการสร้างเรซูเม"
+    }
+  },
+  "navigate": {
+    "message": {
+      "error": "เกิดความผิดพลาดที่ไม่คาดคิดในขณะกำลังเปลี่ยนไปยังหน้าที่คุณเรียกหา"
+    }
+  },
+  "use-resume-template": {
+    "label": {
+      "radio": "ใช้แม่แบบนี้"
+    }
+  },
+  "resume-name": {
+    "label": {
+      "input": "ชื่อเรซูเม"
+    },
+    "message": {
+      "description": "ชื่อสำหรับระบุเรซูเม",
+      "invalid": "ชื่อต้องมีอย่างน้อย 1 ตัวอักษรแต่ไม่เกิน 100 ตัวอักษร"
+    }
+  },
+  "edit-resume": {
+    "label": {
+      "link": "แก้ไข"
+    },
+    "message": {
+      "fetch-resume-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านเรซูเมที่จะแก้ไข",
+      "fetch-thumbnail-error": "เกิดความผิดพลาดในระหว่างการอ่านภาพขนาดย่อของเรซูเม",
+      "fetch-template-error": "เกิดความผิดพลาดในระหว่างการอ่านแม่แบบ",
+      "data-update-error": "มีบางอย่างผิดพลาดในระหว่างการปรับปรุงเรซูเม: {error}",
+      "fetch-global-data-error": "เกิดข้อผิดพลาดบางอย่างในระหว่างการอ่านข้อมูลเรซูเมที่ผูกอยู่กับบัญชี",
+      "fetch-localized-data-error": "เกิดข้อผิดพลาดบางอย่างในระหว่างการอ่านข้อมูลเรซูเมที่แปลแล้ว"
+    }
+  },
+  "delete-resume": {
+    "label": {
+      "link": "ลบ",
+      "header": "ลบเรซูเม"
+    },
+    "message": {
+      "description": "การลบเรซูเมเป็นการลบแบบถาวร คุณแน่ใจแล้วหรือที่จะลบเรซูเมที่ชื่อ {name}",
+      "delete-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการลบเรซูเม"
+    }
+  },
+  "save-resume": {
+    "label": {
+      "button": "บันทึก"
+    }
+  },
+  "cancel-edit-resume": {
+    "label": {
+      "link": "ยกเลิก"
+    }
+  },
+  "resume-name-data": {
+    "label": {
+      "header": "ชื่อ"
+    }
+  },
+  "untitled-resume": {
+    "label": {
+      "header": "ไม่มีชื่อ"
+    }
+  },
+  "browse-resume-template": {
+    "label": {
+      "button": "เปลี่ยน"
+    }
+  },
+  "cancel-browse-resume-template": {
+    "label": {
+      "button": "ยกเลิก"
+    }
+  },
+  "edit-resume-properties": {
+    "message": {
+      "partial-updated": "ข้อมูลบางอย่างยังไม่ได้ถูกแก้ไขเนื่องจากเกิดความผิดพลาดบางอย่าง ข้อมูลที่แสดงอยู่อาจเป็นข้อมูลที่ไม่ถูกต้อง"
+    }
+  },
+  "cancel-delete-resume": {
+    "label": {
+      "button": "ยกเลิก"
+    }
+  },
+  "confirm-delete-resume": {
+    "label": {
+      "button": "ใช่"
+    }
+  },
+  "renew-token": {
+    "message": {
+      "error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการขอ Access Token อันใหม่"
+    }
+  },
+  "resume-summary-data": {
+    "label": {
+      "header": "แนะนำตัว"
+    }
+  },
+  "resume-experience-data": {
+    "label": {
+      "header": "ประสบการณ์ {index}"
+    }
+  },
+  "resume-experience-start": {
+    "label": {
+      "header": "วันที่เริ่ม"
+    },
+    "message": {
+      "description": "วันที่คุณเริ่มต้นทำงานในตำแหน่งนี้"
+    }
+  },
+  "resume-experience-end": {
+    "label": {
+      "header": "วันสุดท้าย"
+    }
+  },
+  "previous-year": {
+    "label": {
+      "button": "ปีก่อนหน้า"
+    }
+  },
+  "select-date": {
+    "label": {
+      "placeholder": "ยังไม่ได้เลือกวันที่"
+    },
+    "message": {
+      "navigation": "คุณสามารถใช้ปุ่มลูกศรเพื่อเลือกวันที่ได้"
+    }
+  },
+  "previous-month": {
+    "label": {
+      "button": "เดือนก่อนหน้า"
+    }
+  },
+  "current-month": {
+    "label": {
+      "button": "เดือนปัจจุบัน"
+    }
+  },
+  "next-month": {
+    "label": {
+      "button": "เดือนถัดไป"
+    }
+  },
+  "next-year": {
+    "label": {
+      "button": "ปีถัดไป"
+    }
+  },
+  "clear-selected-date": {
+    "label": {
+      "button": "ล้าง"
+    }
+  },
+  "cancel-select-date": {
+    "label": {
+      "button": "ยกเลิก"
+    }
+  },
+  "resume-experience-title": {
+    "label": {
+      "header": "ชื่อตำแหน่ง"
+    },
+    "message": {
+      "description": "ชื่อตำแหน่งของคุณ"
+    }
+  },
+  "resume-experience-company": {
+    "label": {
+      "header": "ชื่อบริษัท"
+    },
+    "message": {
+      "description": "ชื่อบริษัทที่คุณอยู่ในตำแหน่งนี้"
+    }
+  },
+  "resume-experience-address": {
+    "label": {
+      "header": "ที่อยู่"
+    },
+    "message": {
+      "description": "ที่อยู่ที่คุณทำงานในขณะที่อยู่ในตำแหน่งนี้ ไม่ควรใส่ที่อยู่เต็ม ควรใส่แค่ที่อยู่โดยสังเขป"
+    }
+  },
+  "select-country": {
+    "label": {
+      "placeholder": "ยังไม่ได้เลือกประเทศ"
+    }
+  },
+  "select-subdivision": {
+    "label": {
+      "placeholder-no-country": "ยังไม่ได้เลือกประเทศ",
+      "placeholder": "ยังไม่ได้เลือกจังหวัด"
+    }
+  },
+  "resume-experience-description": {
+    "label": {
+      "header": "รายละเอียด"
+    },
+    "message": {
+      "description": "รายละเอียดการทำงาน ควรอธิบายแค่ทำอะไรบ้างและมีผลงานอะไรบ้าง พยายามเขียนให้สั้นและกระชับ"
+    }
+  },
+  "template-associated-value": {
+    "label": {
+      "placeholder": "ข้อมูลของแม่แบบ"
+    }
+  },
+  "new-resume-data": {
+    "label": {
+      "placeholder": "สร้างใหม่"
+    }
+  },
+  "resume-headline-data": {
+    "label": {
+      "header": "คำพาดหัว"
+    }
+  },
+  "download-resume": {
+    "label": {
+      "menu-item": "ดาวน์โหลด",
+      "header": "ดาวน์โหลดเรซูเม",
+      "link": "ดาวน์โหลด"
+    }
+  },
+  "building-resume": {
+    "label": {
+      "progress": "กำลังเตรียมเรซูเม"
+    }
+  },
+  "downloading-resume": {
+    "label": {
+      "progress": "กำลังรับเรซูเม"
+    }
+  },
+  "save-downloaded-resume": {
+    "label": {
+      "button": "บันทึก"
+    }
+  },
+  "resume-downloaded": {
+    "label": {
+      "progress": "เสร็จสิ้น"
+    }
+  },
+  "resume-address-data": {
+    "label": {
+      "header": "ที่อยู่"
+    }
+  },
+  "resume-address-address": {
+    "label": {
+      "header": "ที่อยู่"
+    },
+    "message": {
+      "description": "ที่อยู่ปัจจุบันของคุณ ไม่ควรใส่ที่อยู่เต็ม ควรใส่แค่ที่อยู่โดยสังเขป"
+    }
+  },
+  "resume-photo-data": {
+    "label": {
+      "header": "รูปถ่าย",
+      "placeholder": "ไม่มีรูปถ่าย"
+    }
+  },
+  "select-file": {
+    "label": {
+      "placeholder": "ยังไม่ได้เลือกไฟล์"
+    }
+  },
+  "browse-file": {
+    "label": {
+      "button": "เลือกไฟล์"
+    }
+  },
+  "resume-mobile-number-data": {
+    "label": {
+      "header": "โทรศัพท์มือถือ"
+    }
+  },
+  "resume-email-address-data": {
+    "label": {
+      "header": "อีเมล"
+    },
+    "message": {
+      "description": "ที่อยู่อีเมลของคุณ อย่าใช้ที่อยู่ที่ไม่เป็นมืออาชีพ เช่น inwza ฯลฯ",
+      "invalid-input": "ที่อยู่อีเมลต้องไม่เกิน 254 ตัวอักษรและมีเฉพาะตัวอักษรภาษาอังกฤษเท่านั้น"
+    }
+  },
+  "resume-linkedin-data": {
+    "label": {
+      "header": "ลิงกต์อิน"
+    }
+  },
+  "resume-linkedin-username": {
+    "label": {
+      "header": "ชื่อบัญชี"
+    },
+    "message": {
+      "description": "ชื่อบัญชีลิงกต์อินของคุณที่อยู่ใน URL ที่กำหนดเองของคุณ เช่น หาก URL ที่กำหนดเองของคุณคือ www.linkedin.com/in/john ชื่อบัญชีของคุณจะเป็น john"
+    }
+  },
+  "resume-github-data": {
+    "label": {
+      "header": "กิตฮับ"
+    }
+  },
+  "resume-github-username": {
+    "label": {
+      "header": "ชื่อบัญชี"
+    },
+    "message": {
+      "description": "ชื่อบัญชีกิตฮับของคุณ"
+    }
+  },
+  "unknow-language": {
+    "label": {
+      "header": "ภาษาที่ไม่รู้จัก"
+    }
+  },
+  "resume-language-data": {
+    "label": {
+      "header": "ภาษา {index}"
+    }
+  },
+  "resume-language-language": {
+    "label": {
+      "header": "ภาษา",
+      "placeholder": "ยังไม่ได้เลือกภาษา"
+    },
+    "message": {
+      "description": "ภาษาที่คุณสามารถใช้งานได้ ไม่ควรใส่ภาษาที่ไม่จำเป็นกับตำแหน่งที่คุณต้องการจะสมัคร"
+    }
+  },
+  "resume-language-proficiency": {
+    "label": {
+      "header": "ความชํานาญ"
+    },
+    "message": {
+      "description": "ระดับความชำนาญในตัวภาษา ควรใส่เป็นผลการทดสอบหากมี"
+    }
+  },
+  "resume-language-comment": {
+    "label": {
+      "header": "ข้อมูลเพิ่มเติม"
+    },
+    "message": {
+      "description": "ข้อมูลเพิ่มเติมเกี่ยวกับความชำนาญในตัวภาษา พยายามใส่ให้สั้นที่สุด"
+    }
+  },
+  "ielts": {
+    "label": {
+      "select-item": "ไอเอลส์"
+    }
+  },
+  "toeic": {
+    "label": {
+      "select-item": "โทอิก"
+    }
+  },
+  "ilr-scale": {
+    "label": {
+      "header": "สเกลไอแอลอาร์"
+    }
+  },
+  "toefl": {
+    "label": {
+      "select-item": "โทเฟิล"
+    }
+  },
+  "resume-education-data": {
+    "label": {
+      "header": "การศึกษา {index}"
+    }
+  },
+  "resume-education-campus": {
+    "label": {
+      "header": "สถานศึกษา"
+    },
+    "message": {
+      "description": "สถานศึกษาของการศึกษานี้"
+    }
+  },
+  "resume-education-degree": {
+    "label": {
+      "header": "วุฒิการศึกษา"
+    },
+    "message": {
+      "description": "วุฒิการศึกษาที่คุณ(จะ)ได้รับ"
+    }
+  },
+  "resume-education-start": {
+    "label": {
+      "header": "วันที่เริ่ม"
+    },
+    "message": {
+      "description": "วันที่คุณเริ่มต้นการศึกษา"
+    }
+  },
+  "resume-education-end": {
+    "label": {
+      "header": "วันที่จบ"
+    },
+    "message": {
+      "description": "วันที่(คาดว่าจะ)จบการศึกษา"
+    }
+  },
+  "resume-education-grade": {
+    "label": {
+      "header": "ระดับผลการเรียน"
+    },
+    "message": {
+      "description": "เกรดเฉลี่ยของคุณ ไม่ควรระบุหากไม่ใช่เกรดที่ดี"
+    }
+  },
+  "resume-education-description": {
+    "label": {
+      "header": "รายละเอียด"
+    },
+    "message": {
+      "description": "รายละเอียดเพิ่มเติม พยายามทำให้สั้นที่สุด ดั่งนั้นควรระบุแค่ข้อมูลสำคัญ"
+    }
+  },
+  "resume-skill-data": {
+    "label": {
+      "header": "ทักษะ {index}"
+    }
+  },
+  "resume-skill-skill": {
+    "label": {
+      "header": "ทักษะ",
+      "placeholder": "ยังไม่ได้เลือกทักษะ"
+    },
+    "message": {
+      "description": "ชื่อทักษะ"
+    }
+  },
+  "resume-skill-level": {
+    "label": {
+      "header": "ความชำนาญ",
+      "placeholder": "ยังไม่ได้เลือกความชำนาญ"
+    },
+    "message": {
+      "description": "ระดับความชำนาญของทักษะ"
+    }
+  },
+  "share-resume": {
+    "label": {
+      "menu-item": "ส่งให้บุคคลอื่น"
+    }
+  },
+  "manage-resume-links": {
+    "label": {
+      "header": "ลิงก์สำหรับบุคคลภายนอก"
+    },
+    "message": {
+      "no-links": "ยังไม่มีลิงก์สำหรับบุคคลภายนอก"
+    }
+  },
+  "resume-link-name": {
+    "label": {
+      "header": "ชื่อ"
+    },
+    "message": {
+      "description": "ชื่อสำหรับระบุลิงก์",
+      "invalid-input": "ชื่อต้องมีอย่างน้อย 1 ตัวอักษรแต่ไม่เกิน 100 ตัวอักษร"
+    }
+  },
+  "resume-link-created-time": {
+    "label": {
+      "header": "สร้างเมื่อ"
+    }
+  },
+  "resume-link-last-access": {
+    "label": {
+      "header": "ใช้งานล่าสุด",
+      "none-table-cell": "ยังไม่มีการใช้งาน"
+    }
+  },
+  "create-resume-link": {
+    "label": {
+      "button": "สร้าง",
+      "header": "สร้างลิงก์สำหรับบุคคลภายนอก"
+    }
+  },
+  "resume-link-actions": {
+    "label": {
+      "header": "การจัดการ"
+    }
+  },
+  "close-resume-link-url": {
+    "label": {
+      "button": "ปิดหน้าต่าง"
+    }
+  },
+  "resume-link-accesses": {
+    "label": {
+      "header": "การเข้าดูลิงก์ {name}"
+    },
+    "message": {
+      "no-accesses": "ยังไม่มีการเข้าดู",
+      "fetching": "กำลังดึงรายการถัดไป",
+      "no-more": "ไม่มีรายการเพิ่มเติมแล้ว"
+    }
+  },
+  "close-resume-link-accesses": {
+    "label": {
+      "button": "ปิดหน้าต่าง"
+    }
+  },
+  "resume-link-access-index": {
+    "label": {
+      "header": "ลำดับ"
+    }
+  },
+  "resume-link-access-time": {
+    "label": {
+      "header": "เวลา"
+    }
+  },
+  "fetch-next-resume-link-accesses": {
+    "label": {
+      "link": "ถัดไป"
+    }
+  },
+  "delete-resume-link": {
+    "label": {
+      "header": "ลบลิงก์สำหรับบุคคลภายนอก",
+      "button": "ใช่"
+    },
+    "message": {
+      "confirmation": "คุณแน่ใจหรือว่าจะลบ {name}"
+    }
+  },
+  "cancel-delete-resume-link": {
+    "label": {
+      "button": "ยกเลิก"
+    }
+  },
+  "close-resume-links": {
+    "label": {
+      "button": "ปิดหน้าต่าง"
+    }
+  },
+  "resume-requests": {
+    "message": {
+      "no-more": "ไม่มีคำขอเพิ่มเติมแล้ว"
+    }
+  },
+  "manage-resume-request-forms": {
+    "label": {
+      "link": "จัดการแบบฟอร์ม",
+      "header": "จัดการแบบฟอร์ม"
+    },
+    "message": {
+      "no-forms": "ยังไม่มีแบบฟอร์ม"
+    }
+  },
+  "resume-request-form-name": {
+    "label": {
+      "header": "ชื่อ"
+    },
+    "message": {
+      "description": "ชื่อที่เป็นเอกลักษณ์สำหรับแบบฟอร์มนี้",
+      "invalid-input": "ชื่อต้องมีอย่างน้อย 1 ตัวอักษรแต่ไม่เกิน 100 ตัวอักษรและมีเฉพาะ a ถึง z หรือ 0 ถึง 9 หรือ -._"
+    }
+  },
+  "resume-request-form-owner-name": {
+    "label": {
+      "header": "ชื่อเจ้าของ"
+    },
+    "message": {
+      "description": "ชื่อเจ้าของแบบฟอร์มนี้ ปรกติจะเป็นชื่อจริงของคุณ ข้อมูลนี้จะแสดงในหน้าแบบฟอร์มเพื่อบอกผู้ขอเรซูเมว่าเจ้าของเรซูเมนี้คือใคร",
+      "invalid-input": "ชื่อเจ้าของต้องมีอย่างน้อย 1 ตัวอักษรแต่ไม่เกิน 100 ตัวอักษร"
+    }
+  },
+  "resume-request-form-preferred-languages": {
+    "label": {
+      "header": "ภาษาสำหรับติดต่อ"
+    },
+    "message": {
+      "description": "ภาษาที่ต้องการให้ผู้ติดต่อใช้เพื่อกรอกแบบฟอร์ม",
+      "invalid-input": "ภาษาสำหรับติดต่อต้องมีอย่างน้อย 1 ภาษาแต่ไม่เกิน 10 ภาษา"
+    }
+  },
+  "resume-request-form-create-at": {
+    "label": {
+      "header": "สร้างเมื่อ"
+    }
+  },
+  "resume-request-form-actions": {
+    "label": {
+      "header": "การจัดการ"
+    }
+  },
+  "close-manage-resume-request-forms": {
+    "label": {
+      "button": "ปิดหน้าต่าง"
+    }
+  },
+  "create-resume-request-form": {
+    "label": {
+      "link": "สร้างใหม่",
+      "header": "สร้างแบบฟอร์ม",
+      "button": "สร้าง"
+    },
+    "message": {
+      "duplicated-name": "ชื่อ '{name}' ได้ถูกใช้ไปแล้ว"
+    }
+  },
+  "cancel-create-resume-request-form": {
+    "label": {
+      "button": "ยกเลิก"
+    }
+  },
+  "language-selector": {
+    "label": {
+      "placeholder": "เลือกภาษาที่จะเพิ่ม"
+    }
+  },
+  "view-resume-request-form-url": {
+    "label": {
+      "title": "ยูอาร์แอลของ {name}"
+    }
+  },
+  "close-resume-request-form-url": {
+    "label": {
+      "button": "ปิดหน้าต่าง"
+    }
+  },
+  "cancel-confirmation": {
+    "label": {
+      "button": "ยกเลิก"
+    }
+  },
+  "delete-resume-request-form": {
+    "label": {
+      "header": "ลบแบบฟอร์ม"
+    },
+    "message": {
+      "description": "คุณแน่ใจที่จะลบ {name} หรือไม่"
+    }
+  },
+  "accept-confirmation": {
+    "label": {
+      "button": "ใช่"
+    }
+  },
+  "edit-resume-request-form": {
+    "label": {
+      "header": "แก้ไขแบบฟอร์ม"
+    }
+  },
+  "update-resume-request-form": {
+    "label": {
+      "button": "บันทึก"
+    }
+  },
+  "request-resume": {
+    "message": {
+      "back-warning": "ข้อมูลทั้งหมดที่คุณกรอกไปในขั้นตอนนี้จะหายไป คุณแน่ใจหรือไม่"
+    }
+  },
+  "request-resume-company": {
+    "label": {
+      "header": "บริษัท",
+      "review-header": "บริษัท",
+      "empty": "ไม่ระบุ"
+    }
+  },
+  "request-resume-country": {
+    "label": {
+      "review-header": "ประเทศ"
+    }
+  },
+  "request-resume-subdivision": {
+    "label": {
+      "review-header": "จังหวัด"
+    }
+  },
+  "request-resume-address": {
+    "label": {
+      "header": "ที่อยู่",
+      "review-header": "ที่อยู่",
+      "empty": "ไม่ระบุ"
+    }
+  },
+  "request-resume-position": {
+    "label": {
+      "header": "ตำแหน่ง",
+      "review-header": "ตำแหน่ง",
+      "empty": "ไม่ระบุ"
+    }
+  },
+  "request-resume-position-type": {
+    "label": {
+      "header": "ประเภท",
+      "review-header": "ประเภทการจ้าง",
+      "empty": "ไม่ระบุ"
+    }
+  },
+  "request-resume-salary-min": {
+    "label": {
+      "review-header": "เงินเดือนขั้นต่ำ"
+    }
+  },
+  "request-resume-salary-max": {
+    "label": {
+      "review-header": "เงินเดือนสูงสุด"
+    }
+  },
+  "review-resume-request": {
+    "label": {
+      "button": "ตรวจทาน",
+      "data-placeholder": "ไม่ระบุ"
+    },
+    "message": {
+      "description": "คุณต้องการที่จะส่งคำขอเรซูเมด้วยข้อมูลดังต่อไปนี้ใช่หรือไม่"
+    }
+  },
+  "request-resume-contact-name": {
+    "label": {
+      "review-header": "ชื่อผู้ติดต่อ"
+    }
+  },
+  "request-resume-contact-company": {
+    "label": {
+      "review-header": "ติดต่อจากบริษัท",
+      "review-placeholder": "บริษัทเดียวกับที่ต้องทำงาน"
+    }
+  },
+  "request-resume-contact-email": {
+    "label": {
+      "review-header": "ที่อยู่อีเมล"
+    }
+  },
+  "permanent-employment": {
+    "label": {
+      "header": "ประจำ"
+    }
+  },
+  "fixedterm-employment": {
+    "label": {
+      "header": "สัญญาจ้างชั่วคราว"
+    }
+  },
+  "request-resume-salary": {
+    "label": {
+      "header": "เงินเดือน"
+    }
+  },
+  "request-resume-response-culture": {
+    "label": {
+      "review-header": "ภาษาในการตอบกลับ"
+    }
+  },
+  "request-resume-actions": {
+    "label": {
+      "header": "การจัดการ"
+    }
+  },
+  "form-modal": {
+    "label": {
+      "cancel-button": "ยกเลิก"
+    }
+  },
+  "resume-request-details": {
+    "label": {
+      "title": "รายละเอียดคำขอ",
+      "accept-button": "ยอมรับ",
+      "reject-button": "ปฏิเสธ",
+      "unspecified-data": "ไม่ระบุ",
+      "details-tab": "ข้อมูลทั่วไป",
+      "description-tab": "รายละเอียด"
+    }
+  },
+  "resume-request-company": {
+    "label": {
+      "title": "บริษัท"
+    }
+  },
+  "resume-request-address": {
+    "label": {
+      "title": "ที่อยู่"
+    }
+  },
+  "resume-request-position": {
+    "label": {
+      "title": "ตำแหน่ง"
+    }
+  },
+  "resume-request-employment": {
+    "label": {
+      "title": "ประเภทการจ้าง"
+    }
+  },
+  "resume-request-salary": {
+    "label": {
+      "title": "เงินเดือน"
+    }
+  },
+  "resume-request-contact-name": {
+    "label": {
+      "title": "ผู้ติดต่อ"
+    }
+  },
+  "resume-request-contact-company": {
+    "label": {
+      "title": "บริษัทที่ติดต่อ"
+    }
+  },
+  "resume-request-response-culture": {
+    "label": {
+      "title": "ภาษาตอบกลับ"
+    }
+  },
+  "resume-request-rejection": {
+    "label": {
+      "title": "ปฏิเสธ"
+    }
+  },
+  "resume-request-rejection-contact-email": {
+    "label": {
+      "title": "ที่อยู่อีเมล"
+    },
+    "message": {
+      "description": "ที่อยู่อีเมลสำหรับให้ติดต่อกลับ ไม่ต้องระบุหากไม่ต้องการให้ผู้ขอติดต่อกลับ",
+      "invalid-input": "ที่อยู่อีเมลไม่ถูกต้อง"
+    }
+  },
+  "resume-request-rejection-response": {
+    "label": {
+      "title": "ตอบกลับ"
+    },
+    "message": {
+      "description": "ข้อความที่คุณต้องการส่งให้กับผู้ติดต่อ",
+      "invalid-input": "ข้อความตอบกลับต้องไม่เกิน 10,000 ตัวอักษร"
+    }
+  },
+  "resume-request-acception": {
+    "label": {
+      "title": "ยอมรับ"
+    }
+  },
+  "resume-request-acception-resume": {
+    "label": {
+      "title": "เรซูเม",
+      "placeholder": "ยังไม่ได้เลือกเรซูเม",
+      "no-resumes": "ไม่มีเรซูเมที่ตรงกับภาษาตอบกลับ"
+    },
+    "message": {
+      "description": "เรซูเมที่คุณต้องการจะส่งให้กับผู้ขอ",
+      "invalid-input": "คุณยังไม่ได้เลือกเรซูเม"
+    }
+  },
+  "request-list": {
+    "label": {
+      "empty-list": "ยังไม่มีคำขอ"
+    }
+  },
+  "user-navbar": {
+    "label": {
+      "resumes": "เรซูเม",
+      "sign-out": "ออกจากระบบ",
+      "global-data": "ข้อมูล"
+    }
+  },
+  "field-editor": {
+    "message": {
+      "no-parent": "ไม่มีข้อมูลสำหรับสืบทอด"
+    }
+  },
+  "name-editor": {
+    "message": {
+      "first-name": "ชื่อจริงของคุณ",
+      "middle-name": "ชื่อกลางของคุณ",
+      "last-name": "นามสกุลของคุณ"
+    }
+  },
+  "data-editor": {
+    "message": {
+      "no-input": "กรุณากรอกข้อมูล หรือถอดข้อมูลนี้ หรือใช้ข้อมูลที่สืบทอดมา",
+      "unsupported-alphabets": "ข้อมูลที่ระบุมีตัวอักษรที่ไม่อนุญาต",
+      "string-too-long": "ข้อมูลต้องไม่เกิน {max} ตัวอักษร"
+    },
+    "label": {
+      "name-first-name": "ชื่อจริง",
+      "name-middle-name": "ชื่อกลาง",
+      "name-last-name": "นามสกุล",
+      "experience-location": "พื้นที่",
+      "address-region": "พื้นที่",
+      "skill-novice": "ระดับพื้นฐาน",
+      "skill-expert": "ระดับผู้เชี่ยวชาญ",
+      "education-region": "พื้นที่",
+      "website": "เว็บไซต์",
+      "experience": "ประสบการณ์",
+      "education": "การศึกษา",
+      "skill": "ทักษะ",
+      "language": "ภาษา",
+      "certificate": "ประกาศนียบัตร",
+      "certificate-ordered": "ประกาศนียบัตร {index}",
+      "certificate-name": "ชื่อ",
+      "certificate-obtained": "วันที่ได้รับ"
+    }
+  },
+  "global-modal": {
+    "label": {
+      "title": "นำเข้าข้อมูล",
+      "import-button": "นำเข้า"
+    }
+  },
+  "global-import-list": {
+    "message": {
+      "placeholder": "ไม่มีข้อมูลสำหรับนำเข้า",
+      "no-resumes": "ไม่มีเรซูเมสำหรับนำเข้าข้อมูล"
+    }
+  },
+  "wizard-modal": {
+    "label": {
+      "cancel-button": "ยกเลิก"
+    }
+  },
+  "extract-resume-data": {
+    "message": {
+      "no-fields": "ไม่มีข้อมูลที่สามารถนำเข้าได้"
+    }
+  },
+  "headline-editor": {
+    "message": {
+      "value": "คำพาดหัวของคุณ ปรกติแล้วจะเป็นชื่อตำแหน่งปัจจุบันของคุณ"
+    }
+  },
+  "experience-editor": {
+    "message": {
+      "region-description": "พื้นที่ทำงาน ณ ตอนที่คุณอยู่ในตำแหน่งนี้",
+      "end-description": "วันสุดท้ายที่คุณอยู่ในตำแหน่งนี้ ให้ถอดข้อมูลนี้หากนี่คือตำแหน่งปัจจุบันของคุณ"
+    }
+  },
+  "datemonth-selector": {
+    "label": {
+      "month": "เดือน",
+      "year": "ปี"
+    }
+  },
+  "division-selector": {
+    "label": {
+      "country": "ประเทศ",
+      "division": "จังหวัด"
+    }
+  },
+  "address-editor": {
+    "message": {
+      "region-description": "พื้นที่ที่คุณอยู่อาศัย ณ ปัจจุบัน"
+    }
+  },
+  "telephone-editor": {
+    "message": {
+      "value-description": "เบอร์โทรศัพท์มือถือของคุณ"
+    }
+  },
+  "telephone-input": {
+    "message": {
+      "invalid-number": "เบอร์โทรศัพท์ไม่ถูกต้อง"
+    }
+  },
+  "github-editor": {
+    "message": {
+      "username-too-long": "ชื่อบัญชีต้องไม่เกิน 39 ตัวอักษร",
+      "invalid-username": "ชื่อบัญชีต้องมีเฉพาะตัวอักษรภาษาอังกฤษเท่านั้น และมียัติภังค์ได้เพียงหนึ่งตัว และต้องไม่ขึ้นต้นหรือลงท้ายด้วยยัติภังค์"
+    }
+  },
+  "summary-editor": {
+    "message": {
+      "description": "คำแนะนำตัวสั้น ๆ ของตัวคุณ พยายามทำให้สั้นที่สุดโดยระบุแค่ข้อมูลสำคัญที่เกี่ยวข้องกับงานที่คุณจะสมัคร"
+    }
+  },
+  "campus-browser": {
+    "label": {
+      "modal-title": "ค้นหาสถานศึกษา",
+      "modal-cancel": "ยกเลิก",
+      "modal-ok": "ตกลง",
+      "campus-name": "ชื่อ"
+    },
+    "message": {
+      "no-campuses": "ไม่มีสถานศึกษาในบริเวณที่คุณเลือก",
+      "no-area-selected": "คุณยังไม่ได้เลือกบริเวณ",
+      "fetching": "กำลังโหลดสถานศึกษา..."
+    }
+  },
+  "language-editor": {
+    "label": {
+      "proficiency-modal-title": "ความชำนาญของภาษา",
+      "proficiency-type-placeholder": "ยังไม่ได้เลือกค่า",
+      "toeic-display": "โทอิก {score}",
+      "ielts-academic-display": "ไอเอลส์ {score} (วิชาการ)",
+      "ielts-general-display": "ไอเอลส์ {score} (ทั่วไป)",
+      "proficiency-type-label": "หน่วยวัดความชำนาญ",
+      "ilr-placeholder": "คุณยังไม่ได้เลือกค่า",
+      "toeic-score-label": "คะแนนโทอิก",
+      "ielts-module-label": "ประเภทการทดสอบ",
+      "ielts-academic": "วิชาการ",
+      "ielts-general": "ทั่วไป",
+      "ielts-module-placeholder": "ยังไม่ได้เลือกประเภท",
+      "ielts-score-label": "ระดับผลคะแนน",
+      "ielts-score-placeholder": "ยังไม่ได้เลือกคะแนน",
+      "toefl-display": "โทเฟิล {score}",
+      "toefl-score-label": "คะแนนโทเฟิล",
+      "edit-cancel": "ยกเลิก",
+      "edit-ok": "ตกลง",
+      "ilr-no-proficiency": "ไม่มีความชำนาญ",
+      "ilr-elementary": "ชำนาญระดับพื้นฐาน",
+      "ilr-limited-working": "ชำนาญระดับใช้ทำงานได้แบบจำกัด",
+      "ilr-professional-working": "ชำนาญระดับใช้ทำงานได้แบบมืออาชีพ",
+      "ilr-full-professional": "ชำนาญระดับใช้ทำงานได้แบบมืออาชีพอย่างเต็มที่",
+      "ilr-native": "ชำนาญระดับเป็นเจ้าของภาษาหรือเป็นภาษาที่สอง",
+      "ilr-label": "ระดับความสามารถในการสื่อสาร"
+    },
+    "message": {
+      "proficiency-type-description": "ชนิดของหน่วยวัดที่คุณต้องการใช้ระบุความชำนาญของภาษา",
+      "proficiency-type-no-selected": "คุณยังไม่ได้เลือกหน่วยวัดความชำนาญ",
+      "toeic-score-description": "คะแนนโทอิกของคุณ",
+      "ielts-modula-description": "ประเภทของการทดสอบไอเอลส์ที่คุณทำ",
+      "ilr-no-selected": "คุณยังไม่ได้เลือกค่า",
+      "toeic-invalid": "คะแนนโทอิกไม่ถูกต้อง",
+      "ielts-module-no-selected": "คุณยังไม่ได้เลือกประเภทการทดสอบ",
+      "ielts-score-description": "ระดับผลคะแนนไอเอลส์ของคุณ",
+      "ielts-score-no-selected": "คุณยังไม่ได้เลือกคะแนน",
+      "toefl-score-description": "คะแนนโทเฟิลของคุณ",
+      "toefl-invalid": "คะแนนโทเฟิลไม่ถูกต้อง",
+      "ilr-description": "ระดับความสามารถในการสื่อสารของภาษา"
+    }
+  },
+  "global-editor": {
+    "message": {
+      "no-type-selected": "คุณยังไม่ได้เลือกชนิดข้อมูลที่ต้องการแก้ไข",
+      "no-globals": "ไม่มีข้อมูลที่ใช้ร่วมกับ ข้อมูลที่ใช้ร่วมกันจะปรากฏที่นี่เมื่อคุณได้ทำการนำข้อมูลจากเรซูเมหนึ่งไปใช้ในอีกเรซูเมหนึ่ง"
+    },
+    "label": {
+      "go-to-top": "กลับสู่ด้านบน",
+      "data-language": "ภาษาของข้อมูล",
+      "default-language": "ค่าพื้นฐาน",
+      "disabled-field": "ปิดการใช้งาน",
+      "actions": "การจัดการ",
+      "edit-action": "แก้ไข",
+      "save": "บันทึก",
+      "fallback-photo": "ใช้จาก {lang}"
+    }
+  },
+  "linkedin-editor": {
+    "message": {
+      "invalid-username": "ชื่อบัญชีต้องมี 3 ถึง 100 ตัวอักษรและมีเฉพาะตัวอักษรภาษาอังกฤษหรือตัวเลขหรือ -"
+    }
+  },
+  "header": {
+    "label": {
+      "account-templates": "แม่แบบ",
+      "resend-email": "ยืนยันที่อยู่อีเมล",
+      "payment-receiving-methods": "การรับเงิน",
+      "templates": "แม่แบบ"
+    }
+  },
+  "account-templates": {
+    "message": {
+      "no-templates": "คุณยังไม่มีแม่แบบ",
+      "require-verified": "คุณต้องยืนยันที่อยู่อีเมลของคุณก่อน",
+      "limit-reached": "จำนวนแม่แบบที่คุณมีได้ถึงขีดจำกัดแล้ว ติดต่อ support@cloudsume.com เพื่อขอเพิ่มขีดจำกัด",
+      "new-registration-name": "ชื่อแม่แบบ",
+      "invalid-registration-name": "ชื่อต้องมีอย่างน้อยหนึ่งตัวอักษรแต่ไม่เกิน 100 ตัวอักษร",
+      "new-registration-desc": "รายละเอียดของแม่แบบ",
+      "invalid-registration-desc": "รายละเอียดต้องไม่เกิน 10,000 ตัวอักษร",
+      "new-registration-website": "เว็บไซต์สำหรับแม่แบบ",
+      "invalid-registration-website": "ที่อยู่เว็บไซต์ไม่ถูกต้อง",
+      "new-registration-culture": "ภาษาของแม่แบบ ค่านี้จะไม่สามารถเปลี่ยนแปลงได้หลังจากสร้างแม่แบบ",
+      "invalid-registration-culture": "คุณยังไม่ได้เลือกภาษา",
+      "new-registration-jobs": "อาชีพที่แม่แบบนี้ได้ถูกออกแบบไว้ให้ใช้งาน",
+      "invalid-registration-jobs": "อาชีพที่ใช้ได้ต้องมีอย่างน้อยหนึ่งอาชีพแต่ไม่เกินสิบ",
+      "change-category-new-category": "ประเภทที่คุณต้องการจะเปลี่ยนเป็น",
+      "change-category-new-category-no-selection": "คุณยังไม่ได้เลือกประเภท",
+      "change-category-new-category-no-payments": "คุณต้องมีวิธีการรับเงินที่ใช้งานได้อย่างน้อยหนึ่งอัน",
+      "terms-summary": "ค่าธรรมเนียมการขายแม่แบบบน Cloudsumé คือ {fee} ของราคาแม่แบบ สถาบันการเงินที่คุณใช้ในการรับเงินอาจจะคิดค่าธรรมเนียมเพิ่มเติม ค่าธรรมเนียมเหล่านี้จ่ายโดยคุณ ไม่ใช่เรา กรุณาศึกษาคู่มือการใช้งานของสถาบันการเงินที่คุณใช้งานสำหรับข้อมูลเพิ่มเติม",
+      "update-description-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการแก้ไขคำอธิบาย หากคุณต้องการติดต่อเราเกี่ยวกับความผิดพลาดนี้โปรดแนบข้อความต่อไปนี้มาด้วย: {error}",
+      "fetch-jobs-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลอาชีพ: {error}",
+      "register-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการลงทะเบียนแม่แบบ: {error}",
+      "new-registration-country": "ประเทศเป้าหมายของเรซูเมที่สร้างด้วยแม่แบบนี้ ค่านี้จะไม่สามารถเปลี่ยนแปลงได้หลังจากสร้างแม่แบบ",
+      "new-registration-country-error": "คุณยังไม่ได้เลือกประเทศ",
+      "rename-name": "ชื่อใหม่สำหรับแม่แบบนี้",
+      "rename-name-invalid": "ชื่อใหม่ต้องมีอย่างน้อย 1 ตัวอักษรแต่ไม่เกิน 100 ตัวอักษร",
+      "rename-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการเปลี่ยนชื่อ: {error}",
+      "require-non-guest-account": "ไม่สามารถใช้งานได้ด้วยบัญชีชั่วคราว",
+      "preview-job": "ข้อมูลตัวอย่างที่ต้องการใช้งาน หากคุณไม่ได้สร้างข้อมูลตัวอย่างสำหรับอาชีพที่เลือกระบบจะเลือกข้อมูลจากอาชีพพื้นฐาน หากอาชีพพื้นฐานไม่มีข้อมูลระบบจะเป็นคนกำหนดข้อมูลให้ คุณสามารถปรับแต่งข้อมูลเหล่านี้ได้ที่หน้า ข้อมูลตัวอย่าง",
+      "update-website-error": "มีบางอย่างผิดพลาดในระหว่างการแก้ไขเว็บไซต์: {error}",
+      "update-jobs-error": "มีบางอย่างผิดพลาดในระหว่างการแก้ไขอาชีพที่ใช้ได้: {error}"
+    },
+    "label": {
+      "new": "สร้าง",
+      "sort-last-updated": "แก้ไขล่าสุด",
+      "sort-least-updated": "แก้ไขหลังสุด",
+      "new-registration-title": "สร้างแม่แบบ",
+      "new-registration-name": "ชื่อ",
+      "new-registration-desc": "รายละเอียด",
+      "new-registration-website": "เว็บไซต์",
+      "new-registration-culture": "ภาษา",
+      "new-registration-culture-ph": "ยังไม่ได้เลือกภาษา",
+      "new-registration-jobs": "อาชีพที่ใช้ได้",
+      "new-registration-jobs-browse": "เลือกอาชีพ",
+      "new-registration-cancel": "ยกเลิก",
+      "new-registration-submit": "สร้าง",
+      "workspace": "ห้องทำงาน",
+      "no-preview": "ยังไม่มีรูปตัวอย่าง",
+      "published": "เผยแพร่แล้ว",
+      "update-prices": "ตั้งราคา",
+      "price-placeholder": "ราคา",
+      "price-cancel": "ยกเลิก",
+      "price-save": "บันทึก",
+      "change-category": "เปลี่ยนประเภท",
+      "change-category-new-category": "ประเภทใหม่",
+      "private-category": "ไม่อนุญาตให้คนอื่นใช้",
+      "free-category": "อนุญาตให้คนอื่นใช้ฟรี",
+      "paid-category": "ขาย",
+      "category-placeholder": "คุณยังไม่ได้เลือกประเภท",
+      "update-description": "แก้ไขคำอธิบาย",
+      "update-description-edit-tab": "แก้ไข",
+      "update-description-preview-tab": "ผลลัพธ์",
+      "new-registration-country": "ประเทศเป้าหมาย",
+      "rename-template": "เปลี่ยนชื่อ",
+      "rename-name": "ชื่อใหม่",
+      "preview-job": "ข้อมูลตัวอย่าง",
+      "system-preview-job": "ใช้ข้อมูลของระบบเสมอ",
+      "update-website": "เปลี่ยนเว็บไซต์",
+      "update-jobs": "แก้ไขอาชีพที่ใช้ได้"
+    }
+  },
+  "template-editor": {
+    "label": {
+      "name-ph": "ไม่มีข้อมูล",
+      "file-column": "ไฟล์",
+      "back-link": "กลับ",
+      "new-file": "สร้าง",
+      "top-link": "กลับสู่ด้านบน",
+      "save": "บันทึก",
+      "new-title": "สร้างไฟล์ใหม่",
+      "new-name": "ชื่อไฟล์",
+      "new-upload": "นำเข้า",
+      "new-upload-ph": "คุณยังไม่ได้เลือกไฟล์",
+      "new-upload-browse": "เลือกไฟล์",
+      "delete-file": "ลบ",
+      "save-close": "ปิด",
+      "save-publish": "เผยแพร่",
+      "locale-ph": "ไม่มีข้อมูล",
+      "preview-result": "ผลลัพธ์",
+      "preview-source": "ซอร์ซโคด",
+      "save-options": "ปรับแต่ง",
+      "save-options-applicable-data": "ข้อมูลที่รองรับ",
+      "applicable-data-title": "ข้อมูลที่รองรับ",
+      "type-item-enabled": "เปิดใช้งาน",
+      "applicable-data-cancel": "ยกเลิก",
+      "applicable-data-save": "บันทึก",
+      "save-options-experience": "ปรับแต่งประสบการณ์",
+      "experience-options-title": "ปรับแต่งประสบการณ์",
+      "markdown-options-paragraph": "การจบย่อหน้า",
+      "markdown-options-list-options": "ปรับแต่งจุดนำ",
+      "markdown-options-cancel": "ยกเลิก",
+      "markdown-options-save": "บันทึก",
+      "save-options-education": "ปรับแต่งการศึกษา",
+      "education-options-title": "ปรับแต่งการศึกษา",
+      "save-options-skill": "ปรับแต่งทักษะ",
+      "skill-options-title": "ปรับแต่งทักษะ",
+      "skill-options-grouping": "การจัดหมวดหมู่",
+      "skill-options-level": "โดยระดับ",
+      "skill-options-none": "ไม่จัดหมวดหมู่",
+      "skill-options-cancel": "ยกเลิก",
+      "skill-options-save": "บันทึก",
+      "publish-title": "เผยแพร่",
+      "publish-release-note": "รายละเอียดการเปลี่ยนแปลง",
+      "publish-publish": "เผยแพร่",
+      "new-folder": "สร้างแฟ้ม",
+      "new-folder-title": "สร้างแฟ้ม",
+      "new-folder-name": "ชื่อ",
+      "save-options-preview-job": "เปลี่ยนข้อมูลตัวอย่าง",
+      "preview-job-title": "เปลี่ยนข้อมูลตัวอย่าง",
+      "preview-job-job": "อาชีพ",
+      "preview-job-unspecify": "ไม่ระบุ"
+    },
+    "message": {
+      "workspace-empty": "แม่แบบนี้ยังไม่มีไฟล์",
+      "no-file-selected": "คุณยังไม่ได้เลือกไฟล์",
+      "new-name": "ชื่อไฟล์ที่คุณต้องการจะสร้าง",
+      "new-name-blank": "คุณยังไม่ได้ระบุชื่อไฟล์",
+      "new-name-too-long": "ชื่อไฟล์ยาวเกินไป",
+      "new-name-invalid": "ชื่อไฟล์มีตัวอักษรที่ไม่อนุญาต",
+      "new-name-duplicated": "มีไฟล์ชื่อนี้แล้ว",
+      "new-upload": "เลือกไฟล์จากคอมพิวเตอร์ของคุณ ไม่ต้องเลือกไฟล์หากคุณต้องการสร้างไฟล์แบบว่างเปล่า",
+      "new-upload-too-large": "ขนาดรวมของทุกไฟล์ต้องไม่เกิน 5 เมกะไบต์",
+      "no-editor": "ไฟล์ที่คุณเลือกไม่สามารถแก้ไขได้",
+      "name-description": "ชื่อจริงและนามสกุล",
+      "headline-description": "คำพาดหัว ปรกติแล้วจะเป็นชื่อตำแหน่งปัจจุบันของคนนั้น",
+      "address-description": "ที่อยู่ปัจจุบันของบุคคลนั้น",
+      "mobile-description": "เบอร์โทรศัพท์มือถือของคนนั้น",
+      "email-description": "ที่อยู่อีเมลของบุคคลนั้น",
+      "linkedin-description": "ชื่อบัญชีลิงกต์อินของบุคคลนั้น",
+      "github-description": "ชื่อบัญชีกิตฮับของบุคคลนั้น",
+      "photo-description": "รูปถ่ายของคนนั้น",
+      "summary-description": "คำแนะนำตัวสั้น ๆ ของบุคคลนั้น",
+      "experience-description": "ตำแหน่งงานที่บุคคลนั้นเคยทำมาหรือกำลังทำอยู่",
+      "education-description": "การศึกษาของบุคคลนั้น",
+      "skill-description": "ทักษะความสามารถของบุคคลนั้น",
+      "language-description": "ภาษาที่บุคคลนั้นสามารถใช้สื่อสารได้",
+      "markdown-options-paragraph": "วิธีจบย่อหน้า หากไม่ระบุจะเป็นบรรทัดว่าง (\\n\\n)",
+      "markdown-options-list-options": "ค่าที่จะส่งเข้าไปยัง itemize",
+      "markdown-options-invalid-paragraph": "ตัวอักษรต้องไม่เกิน 1,000 ตัวอักษร",
+      "markdown-options-invalid-list-options": "ตัวอักษรต้องไม่เกิน 1,000 ตัวอักษร",
+      "skill-options-grouping": "ปรับแต่งวิธีการส่งข้อมูลทักษะเข้ามายังแม่แบบ",
+      "publish-info": "การเผยแพร่แม่แบบจะทำให้คนอื่นสามารถใช้งานแม่แบบนี้ได้ หากแม่แบบได้ตั้งค่าไม่ให้คนอื่นใช้งานได้จะมีเพียงคุณที่สามารถใช้งานแม่แบบนี้ได้ หลังจากเผยแพร่แล้วข้อจำกัดบางอย่างจะถูกบังคับใช้กับแม่แบบนั้น",
+      "publish-applicable-jobs-restriction": "ไม่สามารถถอดอาชีพออกจากอาชีพที่ใช้งานได้ แต่คุณจะยังสามารถเพิ่มอาชีพได้",
+      "publish-category-restriction": "หมวดหมู่ของแม่แบบจะไม่สามารถเปลี่ยนแปลงในรุ่นที่เผยแพร่ไปแล้วได้ แต่คุณจะยังสามารถเปลี่ยนหมวดหมู่สำหรับรุ่นใหม่ได้ ตัวอย่างเช่น แม่แบบถูกเผยแพร่เป็นแบบฟรีให้คนอื่นใช้งาน ต่อมาแม่แบบถูกเปลี่ยนเป็นแบบเสียเงิน คนอื่นจะยังสามารถใช้งานรุ่นฟรีได้ต่อไป",
+      "publish-success": "แม่แบบได้ถูกเผยแพร่แล้ว",
+      "preview-delete-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการลบ {name}",
+      "preview-upload-error": "มีบางอย่างผิดพลาดทำให้ไม่สามารถอัพโหลด {name}",
+      "preview-applicable-data-error": "มีบางอย่างผิดพลาดทำให้ไม่สามารถอัพเดตข้อมูลที่แม่แบบรองรับ",
+      "preview-rebuild-error": "มีบางอย่างผิดพลาดทำให้ไม่สามารถคอมไพล์แม่แบบได้",
+      "preview-thumbnail-error": "เกิดข้อผิดพลาดบางอย่างทำให้ไม่สามารถอ่านภาพตัวอย่างหน้า {page} ได้",
+      "paid-template-prerequisites": "คุณต้องกำหนดราคาและมีวิธีการรับเงินที่ใช้งานได้ก่อนที่จะเผยแพร่แม่แบบแบบเสียเงิน",
+      "new-folder-name": "ชื่อแฟ้มที่คุณต้องการสร้าง คุณต้องเพิ่มไฟล์หรือแฟ้มเข้าไปยังแฟ้มนี้ไม่อย่างนั้นแฟ้มนี้จะไม่ถูกบันทึกไว้",
+      "reserved-file": "ไม่อนุญาตชื่อไฟล์นี้",
+      "fetch-asset-content-error": "เกิดความผิดพลาดในระหว่างการอ่านข้อมูลของไฟล์: {error}",
+      "website-description": "ที่อยู่เว็บไซต์ส่วนตัว เช่น บล็อก",
+      "preview-job-description": "อาชีพที่จะแสดงในรูปตัวอย่าง",
+      "load-job-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลอาชีพ {job}: {error}",
+      "preview-job-update-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการส่งข้อมูลอาชีพที่จะแสดงในรูปตัวอย่าง: {error}",
+      "publish-preview-restriction": "รูปตัวอย่างของรุ่นที่เผยแพร่ไปแล้วจะไม่สามารถเปลี่ยนแปลงได้",
+      "certificate-description": "ประกาศนียบัตรที่บุคคลนั้นมี"
+    }
+  },
+  "thumbnails-viewer": {
+    "label": {
+      "page-number": "หน้า {num}"
+    }
+  },
+  "template-viewer": {
+    "label": {
+      "category-free": "ฟรี",
+      "category-private": "ส่วนตัว",
+      "category-paid": "เสียเงิน",
+      "preview-loading": "กำลังโหลด..."
+    },
+    "message": {
+      "preview-load-error": "เปิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่าน {url}: {error}"
+    }
+  },
+  "links-manager": {
+    "message": {
+      "no-license": "ลิงก์ทั้งหมดจะไม่สามารถใช้งานได้เนื่องจากคุณยังไม่ได้ซื้อสิทธิการใช้งานแม่แบบของเรซูเมนี้ คุณสามารถซื้อสิทธิการใช้งานแม่แบบได้โดยการดาวน์โหลดเรซูเมนี้",
+      "copy-link-error": "ล้มเหลวในการคัดลอกลิงก์เนื่องจากการตั้งค่าเว็บเบราว์เซอร์ของคุณ กรุณาคัดลอกด้วยวิธีการปรกติ",
+      "link-copied": "ลิงก์ได้ถูกคัดลอกแล้ว",
+      "new-censorship": "เลือกข้อมูลที่คุณต้องการจะปกปิดเมื่อเข้าถึงเรซูเมด้วยลิงก์นี้",
+      "new-link-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการสร้างลิงก์: {error}",
+      "fetch-resume-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลเรซูเม: {error}",
+      "fetch-data-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลสำหรับภาษา {locale}: {error}",
+      "fetch-template-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลแม่แบบ {template}: {error}",
+      "check-downloadable-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการตรวจสอบความสามารถในการดาวน์โหลดเรซูเม: {error}",
+      "fetch-accesses-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านประวัติการเข้าชม: {error}",
+      "update-censorship-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการปรับปรุงข้อมูลปกปิด: {error}"
+    },
+    "label": {
+      "copy-link": "คัดลอก",
+      "edit-censorships-title": "เลือกข้อมูลที่ต้องการปกปิด",
+      "new-censorship-label": "ข้อมูลปกปิก",
+      "new-censorship-edit": "แก้ไข",
+      "data-disabled": "ข้อมูลนี้ปิดการใช้งาน",
+      "access-histories": "ประวัติการเข้าชม",
+      "delete": "ลบ",
+      "view-url": "ดูยูอาร์แอล",
+      "edit-censorship": "แก้ไขข้อมูลปกปิด"
+    }
+  },
+  "resume-editor": {
+    "message": {
+      "link-warning": "ลิงก์ของเรซูเมนี้จะไม่สามารถใช้งานได้เนื่องจากคุณยังไม่ได้ซื้อแม่แบบที่คุณเลือก คุณสามารถซื้อแม่แบบนี้โดยการดาวน์โหลดเรซูเมหลังจากที่คุณเปลี่ยนแม่แบบแล้ว",
+      "template-purchase-success": "การซื้อแม่แบบสำเร็จ คุณสามารถดาวน์โหลดเรซูเมของคุณได้ทันที",
+      "template-purchase-failed": "การซื้อแม่แบบล้มเหลว กรุณาติดต่อเราเพื่อตรวจสอบปัญหาหรือขอคืนเงิน",
+      "unsaved-data-warning": "ข้อมูลที่ยังไม่ถูกบันทึกจะหายไปหากคุณดำเนินการต่อ",
+      "fetch-resume-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลเรซูเม {resume} หากติดต่อเรากรุณาส่งข้อความดั่งต่อไปนี้มาด้วย: {error}",
+      "fetch-global-data-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลสำหรับเรซูเม: {error}",
+      "change-template-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการเปลี่ยนแม่แบบ: {error}",
+      "tutorial-actions-description": "เปลี่ยนแม่แบบ ดาวน์โหลด แชร์ หรือเปลี่ยนชื่อเรซูเมได้จากปุ่ม 3 จุดที่อยู่หลังชื่อเรซูเม",
+      "tutorial-import-description": "ใช้ข้อมูลจากเรซูเมอื่นของคุณได้ด้วยการกดที่ปุ่มด้านล่างขวาของข้อมูลนั้น",
+      "tutorial-global-description": "แก้ไขข้อมูลที่นำเข้าจากเรซูอื่นได้จากการกดปุ่ม ข้อมูล ที่อยู่ด้านบนสุด ระบบจะทำการปรับปรุงทุกเรซูเมที่เกี่ยวข้องให้โดยอัตโนมัติ",
+      "invalid-update": "มีข้อผิดพลาดใน{type}: {error}",
+      "tutorial-change-template-note": "การเปลี่ยนแม่แบบจะเปลี่ยนได้เฉพาะแม่แบบที่เป็นภาษาเดียวกันเท่านั้น ถึงกระนั้นคุณสามารถสร้างเรซูเมฉบับใหม่แล้วนำเข้าข้อมูลจากเรซูเมที่เป็นคนละภาษาได้"
+    },
+    "label": {
+      "change-template-title": "เปลี่ยนแม่แบบ",
+      "change-template": "เปลี่ยนแม่แบบ",
+      "rename-resume": "เปลี่ยนชื่อ",
+      "tutorial-title": "วิธีแก้ไขเรซูเม",
+      "tutorial-close": "ปิด"
+    }
+  },
+  "payment-provider-list": {
+    "label": {
+      "new": "สร้างใหม่",
+      "create": "สร้าง",
+      "new-title": "สร้างวิธีการรับเงิน",
+      "stripe": "Stripe",
+      "new-select-button": "เลือกวิธีนี้",
+      "new-stripe-title": "Stripe",
+      "new-stripe-country": "ประเทศ",
+      "setup-required": "ยังไม่ได้ตั้งค่า",
+      "setup": "ตั้งค่า",
+      "processing": "อยู่ในระหว่างดำเนินการ"
+    },
+    "message": {
+      "new-description": "สร้างวิธีรับชำระเงินอันใหม่",
+      "require-email-confirmation": "คุณต้องยืนยันที่อยู่อีเมลของคุณก่อน",
+      "new-stripe-country": "ประเทศที่คุณมีสัญชาติ หรือประเทศที่คุณมีกิจการอย่างถูกต้องตามกฎหมาย",
+      "new-stripe-no-country": "คุณยังไม่ได้เลือกประเทศ",
+      "setup-expired": "ลิงก์สำหรับตั้งค่า {method} ได้หมดอายุแล้ว คุณสามารถดำเนินการตั้งค่าต่อโดยกดที่ปุ่ม ตั้งค่า"
+    }
+  },
+  "currency-selector": {
+    "label": {
+      "placeholder": "สกุลเงิน"
+    }
+  },
+  "modal": {
+    "label": {
+      "cancel": "ยกเลิก",
+      "ok": "ตกลง"
+    }
+  },
+  "purchase-template": {
+    "label": {
+      "title": "ซื้อแม่แบบ",
+      "select-price": "เลือกราคา",
+      "feedback-title": "แจ้งปัญหาการซื้อแม่แบบ",
+      "too-expensive": "ราคาแพงเกินไป",
+      "no-cards": "ฉันไม่มีบัตรเครดิต/เดบิต",
+      "mistaken-free": "ฉันนึกว่าแม่แบบนี้ฟรี",
+      "untrusted": "Cloudsumé ไม่น่าเชื่อถือ",
+      "payment-not-working": "ฉันชำระเงินไม่ได้",
+      "feedback-select": "กรุณาเลือกเหตุผล"
+    },
+    "message": {
+      "introduction": "คุณต้องซื้อสิทธิการใช้งานแม่แบบ {template} ก่อนถึงจะดาวน์โหลดเรซูเม {resume} ได้ หลังจากที่คุณซื้อสิทธิการใช้งานแล้วคุณสามารถดาวน์โหลดเรซูเมที่ใช้แม่แบบนี้ได้ไม่จำกัดจำนวนครั้ง การซื้อสิทธิการใช้งานแม่แบบจะไม่สามารถคืนเงินได้ ดั่งนั้นควรสร้างเรซูเมของคุณให้เสร็จสมบูรณ์เสียก่อนที่จะซื้อสิทธิการใช้งานเพื่อที่จะได้เห็นตัวอย่างจริง ๆ ของเรซูเมที่คุณจะได้",
+      "fetch-template-error": "มีบางอย่างผิดพลาดในระหว่างการอ่านแม่แบบ {template}: {error}",
+      "unverified-warning": "คุณอาจจะสูญเสียสิทธิการใช้งานที่คุณซื้อเนื่องจากบัญชีของคุณยังไม่ได้ยืนยันที่อยู่อีเมล โปรดยืนยันที่อยู่อีเมลก่อนทำการซื้อสิทธิการใช้งานแม่แบบ หากคุณดำเนินการต่อคุณยืนยันว่าคุณอาจจะสูญเสียสิทธิการใช้งานแม่แบบที่คุณซื้อ",
+      "temporary-warning": "คุณอาจจะสูญเสียสิทธิการใช้งานแม่แบบที่คุณซื้อเนื่องจากบัญชีของคุณเป็นบัญชีชั่วคราว โปรดแปลงบัญชีของคุณเป็นบัญชีถาวรก่อนซื้อสิทธิการใช้งานแม่แบบ หากคุณดำเนินการต่อคุณยืนยันว่าคุณอาจจะสูญเสียสิทธิการใช้งานแม่แบบที่คุณซื้อ",
+      "secured-by": "ปลอดภัยด้วย",
+      "captcha-error": "การตรวจสอบแคปต์ชาล้มเหลว กรุณาโหลดหน้านี้ใหม่แล้วลองอีกครั้ง",
+      "cancel-feedback-error": "มีบางอย่างผิดพลาดในระหว่างการแจ้งปัญหา: {error}"
+    }
+  },
+  "resume-list": {
+    "message": {
+      "template-purchase-success": "การซื้อแม่แบบ {template} สำเร็จ คุณสามารถดาวน์โหลดเรซูเม {resume} ได้ทันที",
+      "template-purchase-failed": "การซื้อแม่แบบล้มเหลว กรุณาติดต่อเราเพื่อตรวจสอบปัญหาหรือขอคืนเงิน",
+      "welcome-paragraph-1": "ไม่พลาดทุกการอัพเดตจากเราด้วยการติดตามเราบนโซเชียลมีเดีย",
+      "cancel-transfer-warning": "คุณจะสูญเสียเรซูเมและข้อมูลทั้งหมดที่อยู่ในบัญชีเดิมถาวรหากคุณยกเลิกการโอนข้อมูล คุณยืนยันที่จะยกเลิกการโอนข้อมูลหรือไม่",
+      "transfer-info": "คุณสามารถโอนเรซูเมและข้อมูลทั้งหมดจากบัญชีเดิมของคุณมายังบัญชีนี้ได้",
+      "transfer-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการโอนข้อมูลจากบัญชี {account} โปรดติดต่อเราเพื่อขอความช่วยเหลือ",
+      "transfer-conflict": "การโอนข้อมูลล้มเหลวเนื่องจากบัญชีนี้มีข้อมูลบางส่วนอยู่ก่อนแล้ว คุณสามารถออกจากระบบแล้วสร้างบัญชีใหม่เพื่อเริ่มกระบวนการโอนข้อมูลอีกรอบ",
+      "welcome-guest-warning": "คุณกำลังใช้งาน Cloudsumé ด้วยบัญชีชั่วคราว คุณจะสูญเสียข้อมูลทั้งหมด รวมถึงแม่แบบที่คุณซื้อ หากเว็บเบราว์เซอร์ของคุณได้ทำการลบข้อมูลการใช้งานของคุณ คุณสามารถหลีกเลี่ยงการสูญเสียข้อมูลดังกล่าวได้โดยการแปลงบัญชีชั่วคราวนี้เป็นบัญชีถาวรก่อนที่คุณจะออกจาก Cloudsumé",
+      "welcome-account-conversion-mobile": "คุณสามารถแปลงบัญชีชั่วคราวนี้เป็นบัญชีถาวรได้โดยการกดที่ปุ่มเมนูด้านบนขวา จากนั้นกดที่ บัญชี แล้วเลือก สร้างบัญชีถาวร",
+      "welcome-account-conversion-desktop": "คุณสามารถแปลงบัญชีชั่วคราวนี้เป็นบัญชีถาวรได้โดยการกดที่ปุ่ม บัญชี ด้านบนขวาแล้วเลือก สร้างบัญชีถาวร",
+      "fetch-template-error": "มีบางอย่างผิดพลาดในระหว่างการอ่านข้อมูลแม่แบบ {template}: {error}",
+      "fetch-license-error": "มีบางอย่างผิดพลาดในระหว่างการอ่านสิทธิการใช้งานของแม่แบบ {template}: {error}",
+      "fetch-thumbnail-error": "มีบางอย่างผิดพลาดในระหว่างการอ่านภาพตัวอย่างของเรซูเม {resume}: {error}"
+    },
+    "label": {
+      "welcome-title": "ยินดีต้อนรับสู่ Cloudsumé!",
+      "follow-twitter": "ติดตามเราบนทวิตเตอร์",
+      "like-facebook": "ถูกใจเราบนเฟซบุ๊ก",
+      "transfer-title": "โอนข้อมูล",
+      "cancel-transfer-title": "ยกเลิกการโอนข้อมูล",
+      "cancel-transfer-confirm": "ยืนยัน",
+      "transfer-confirm": "โอนข้อมูล",
+      "transfer-conflict": "ข้อมูลชนกัน",
+      "transfer-signout": "ออกจากระบบ",
+      "join-reddit": "เข้าร่วมเรดดิตกับเรา",
+      "no-accesses": "เข้าถึงได้จากบุคคลอื่น"
+    }
+  },
+  "payment-receiving-methods": {
+    "message": {
+      "captcha-error": "ไม่สามารถอ่านผลของแคปต์ชาได้ กรุณาโหลดหน้านี้ใหม่แล้วลองอีกครั้ง",
+      "setup-captcha-error": "คำตอบของแคปต์ชาไม่ถูกต้อง โปรดลองคลิกลิงค์ไปยังหน้าอื่นแล้วกลับมาลองใหม่อีกครั้ง",
+      "setup-unknown-error": "เกิดความผิดพลาดที่ไม่คาดคิด หากติดต่อเรากรุณาส่งข้อความดังต่อไปนี้มาด้วย: {error}",
+      "require-non-guest-account": "ไม่สามารถใช้งานได้ด้วยบัญชีชั่วคราว",
+      "stripe-country-warning": "คุณจะไม่สามารถแก้ไขค่านี้ในภายหลัง อย่าสร้างหากประเทศของคุณไม่อยู่ในตัวเลือกและให้ติดต่อเราเพื่อเพิ่มการรองรับประเทศของคุณ"
+    }
+  },
+  "template-details": {
+    "label": {
+      "description": "รายละเอียด",
+      "changes": "รายการอัพเดต",
+      "reviews": "รีวิว",
+      "information": "ข้อมูลอื่น ๆ"
+    },
+    "message": {
+      "load-releases-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลการเผยแพร่แม่แบบ {template}: {error}",
+      "initial-release": "รุ่นแรกเริ่ม",
+      "preview-load-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการโหลด {url}: {error}"
+    }
+  },
+  "template-browser": {
+    "label": {
+      "create-resume": "สร้างเรซูเม",
+      "close": "ปิด"
+    },
+    "message": {
+      "no-templates": "ไม่พบแม่แบบ",
+      "fetch-template-error": "มีบางอย่างผิดพลาดในระหว่างการอ่านข้อมูลแม่แบบ {template}: {error}",
+      "fetch-license-error": "มีบางอย่างผิดพลาดในระหว่างการอ่านสิทธิการใช้งานของแม่แบบ {template}: {error}"
+    }
+  },
+  "template-actions": {
+    "label": {
+      "copy-link": "คัดลอกลิงก์",
+      "tos": "ข้อตกลงการใช้งาน",
+      "privacy-policy": "นโยบายความเป็นส่วนตัว"
+    },
+    "message": {
+      "copy-link-error": "เกิดความผิดพลาดที่ไม่คาดคิดในการคัดลอกลิงก์: {error}",
+      "link-copied": "ลิงก์มายังแม่แบบนี้ได้ถูกคัดลอกแล้ว",
+      "maximum-resume-reached": "จำนวนเรซูเมที่คุณมีได้ครบจำนวนที่กำหนดแล้ว",
+      "captcha-error": "การตรวจสอบแคปต์ชาล้มเหลว กรุณาเปิดหน้านี้แล้วลองใหม่อีกครั้ง",
+      "create-guest-session-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการสร้างบัญชีชั่วคราว: {error}",
+      "write-guest-token-error": "ล้มเหลวในการบันทึกข้อมูลบัญชีชั่วคราว กรุณาตรวจสอบการตั้งค่าเว็บเบราว์เซอร์ของคุณ",
+      "tos-acceptant": "ฉันยอมรับ {tos} และ {privacy}"
+    }
+  },
+  "template": {
+    "message": {
+      "load-registration-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลการลงทะเบียนแม่แบบ: {error}",
+      "load-releases-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลการเผยแพร่ของแม่แบบ: {error}",
+      "not-releases": "แม่แบบนี้ยังไม่ถูกเผยแพร่",
+      "load-license-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านสิทธิการใช้งานแม่แบบ: {error}",
+      "load-resume-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านเรซูเม: {error}"
+    }
+  },
+  "education-editor": {
+    "message": {
+      "region-description": "ที่ตั้งของสถานศึกษา"
+    }
+  },
+  "photo-editor": {
+    "message": {
+      "file-too-large": "ขนาดรูปถ่ายเกิน 512 กิโลไบต์"
+    },
+    "label": {
+      "loading": "กำลังโหลด..."
+    }
+  },
+  "parent-selector": {
+    "label": {
+      "no-photo": "ไม่มีรูป",
+      "default-photo": "รูปพื้นฐาน",
+      "default-summary": "ค่าพื้นฐาน",
+      "no-summary": "ไม่มีคำแนะนำตัว",
+      "no-parent": "ไม่สืบทอดข้อมูล"
+    },
+    "message": {
+      "certificate-name": "ชื่อประกาศนียบัตร",
+      "certificate-obtained": "วันที่คุณได้รับประกาศนียบัตรนี้"
+    }
+  },
+  "property-viewer": {
+    "message": {
+      "load-image-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านรูปภาพ '{url}': {error}"
+    },
+    "label": {
+      "loading-image": "กำลังโหลด..."
+    }
+  },
+  "website-editor": {
+    "message": {
+      "description": "ยูอาร์แอลเว็บไซต์ส่วนตัวของคุณ เช่น บล็อก",
+      "invalid-input": "ค่าที่ระบุไม่ใช่ยูอาร์แอลของเว็บไซต์"
+    }
+  },
+  "landing": {
+    "message": {
+      "hero-title": "แพลตฟอร์มยุคใหม่สำหรับสร้างเรซูเม",
+      "hero-message": "สร้างเรซูเมอันสวยงามได้อย่างง่ายดายเพียงแค่กรอกข้อมูลของคุณ",
+      "highlight-title": "ไม่ใช่แค่แอปสำหรับสร้างเรซูเมแต่เราคือแพลตฟอร์ม",
+      "highlight-message": "คนที่รู้ LaTeX สามารถที่จะแบ่งปันแม่แบบให้กับคนที่ไม่รู้ LaTeX เพื่อให้เขาสามารถสร้างเรซูเมอันสวยงามได้โดยไม่ต้องเขียน LaTeX",
+      "highlight-free": "ใคร ๆ ก็สามารถสร้างและดาวน์โหลดเรซูเมได้ฟรีหากเจ้าของแม่แบบที่คุณใช้อนุญาตให้ใช้ฟรี",
+      "highlight-hidden-cost": "จ่ายครั้งเดียวสำหรับแม่แบบที่ไม่ฟรี คุณก็จะสามารถใช้งานแม่แบบนั้นได้ตลอดไป ไม่มีค่าบริการรายเดือน",
+      "highlight-privacy": "เราไม่แบ่งปันหรือขายข้อมูลคุณให้กับบุคคลอื่น เจ้าของข้อมูลคือคุณ ไม่ใช่เรา",
+      "cloud-storage-title": "คลาวด์สตอเรจสำหรับเรซูเมของคุณ",
+      "cloud-storage-message-1": "ด้วย Cloudsumé คุณไม่จำเป็นต้องเก็บไฟล์ต้นฉบับเรซูเมของคุณไว้บนคลาวด์สตอเรจอีกต่อไป",
+      "cloud-storage-message-2": "คุณสามารถแก้ไขเรซูเมของคุณได้ตลอดเวลาที่ต้องการ รวมถึงจากในโทรศัพท์มือถือของคุณ",
+      "switch-template-title": "เปลี่ยนแม่แบบได้ทุกเมื่อที่คุณต้องการ",
+      "switch-template-message": "แม่แบบปัจจุบันดูน่าเบื่อไปแล้วใช่หรือไม่ กดเปลี่ยนแม่แบบสิ ข้อมูลทุกอย่างในเรซูของคุณจะยังคงอยู่!",
+      "much-more-title": "และอื่น ๆ อีกมากมาย",
+      "much-more-message": "สร้างลิงก์สำหรับแชร์เรซูเม แก้ไขข้อมูลเรซูเมหลายใบได้จากที่เดียว แม่แบบเฉพาะสำหรับแต่ละประเทศ และอีกหลากหลายฟีเจอร์ที่จะช่วยให้การสร้างเรซูเมเป็นเรื่องง่าย",
+      "latex-author-title": "คุณเขียน LaTeX งั้นเหรอ",
+      "latex-author-message": "คุณสามารถช่วยเหลือคนอื่นที่ไม่รู้ LaTeX ด้วยการสร้างและแบ่งปันแม่แบบของคุณ",
+      "builtin-editor": "เครื่องมือแก้ไขโค้ด",
+      "full-xetex": "XeTeX ตัวเต็ม",
+      "template-engine": "Engine อันทรงพลัง",
+      "choice-is-yours": "วิธีแบ่งปันที่เลือกได้",
+      "signup-reminder": "พร้อมแล้วใช่หรือไม่"
+    },
+    "label": {
+      "browse-templates": "สร้างเรซูเม",
+      "highlight-free": "มันฟรี",
+      "highlight-hidden-cost": "ไม่มีค่าใช้จ่ายแอบแฝง",
+      "highlight-privacy": "ไม่ขายข้อมูล",
+      "publish-template": "สร้างแม่แบบ"
+    }
+  },
+  "page-header": {
+    "label": {
+      "mode-resume-builder": "สร้างเรซูเม",
+      "mode-template-authoring": "สร้างแม่แบบ",
+      "guest-account": "บัญชี",
+      "to-permanent-account": "สร้างบัญชีถาวร",
+      "sample-data": "ข้อมูลตัวอย่าง"
+    },
+    "message": {
+      "guest-signout-warning": "คุณจะไม่สามารถเข้าถึงเรซูเมของคุณได้อีกต่อไปหากคุณออกจากระบบ ถึงกระนั้นลิงก์ที่คุณสร้างสำหรับแบ่งปันเรซูเมของคุณจะยังคงใช้งานได้ตลอดไป แต่คุณจะไม่สามารถลบมันได้ คุณยังต้องการที่จะออกจากระบบหรือไม่"
+    }
+  },
+  "job-filter": {
+    "message": {
+      "jobs-load-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านรายชื่ออาชีพ: {error}"
+    },
+    "label": {
+      "any-job": "ทุกอาชีพ"
+    }
+  },
+  "locale-filter": {
+    "label": {
+      "any-locale": "ทุกภาษา"
+    }
+  },
+  "signed-in": {
+    "message": {
+      "navbar-switch-error": "ล้มเหลวในการเปลี่ยนการตั้งค่าของแแถบรายการคำสั่ง คุณจะต้องเข้าไปดูรายการเรซูเมของคุณหลังจากนี้ ไม่อย่างนั้นคุณอาจจะไม่สามารถย้ายข้อมูลจากบัญชีชั่วคราวได้"
+    }
+  },
+  "rename-resume": {
+    "label": {
+      "title": "เปลี่ยนชื่อเรซูเม",
+      "new-name": "ชื่อใหม่"
+    },
+    "message": {
+      "new-name-description": "ชื่อใหม่ของเรซูเม",
+      "invalid-name": "ชื่อต้องมีอย่างน้อย 1 ตัวอักษรแต่ไม่เกิน 100 ตัวอักษร",
+      "rename-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการเปลี่ยนชื่อเรซูเม: {error}"
+    }
+  },
+  "sample-data": {
+    "message": {
+      "fetch-job-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านรายการอาชีพ: {error}",
+      "fetch-data-error": "เกิดความผิดพลาดที่ไม่คาดคิดในระหว่างการอ่านข้อมูลตัวอย่าง: {error}",
+      "editor-placeholder": "คุณยังไม่ได้เลือกข้อมูลที่จะแก้ไข",
+      "address-region": "ค่าของ data.address.country และ data.address.region โดย data.address.country จะไม่ถูกส่งไปหากมันเป็นประเทศเดียวกับแม่แบบ เช่น แม่แบบเป็นภาษา ไทย (ประเทศไทย) และประเทศของค่านี้เป็นประเทศไทย",
+      "address-street": "ค่าของ data.address.street",
+      "education-start": "ค่าของ data.education.start.month และ data.education.start.year หากค่านี้ถูกถอดออก data.education.start จะหายไปทั้งหมด",
+      "education-degree": "ค่าของ data.education.degree",
+      "education-description": "ค่าของ data.education.description",
+      "education-end": "ค่าของ data.education.end.month และ data.education.end.year หากข้อมูลนี้ถูกถอดออก data.education.end จะหายไปทั้งหมด",
+      "education-grade": "ค่าของ data.education.grade.",
+      "education-institute": "ค่าของ data.education.institute.",
+      "education-region": "ค่าของ data.education.country และ data.education.region โดย data.education.country จะไม่ถูกส่งไปหากมันเป็นประเทศเดียวกับแม่แบบ เช่น แม่แบบเป็นภาษา ไทย (ประเทศไทย) และประเทศของค่านี้เป็นประเทศไทย",
+      "email": "ค่าของ data.email",
+      "experience-company": "ค่าของ data.experience.company",
+      "experience-description": "ค่าของ data.experience.description",
+      "experience-end": "ค่าของ data.experience.end.month และ data.experience.end.year หากค่านี้ถูกถอดออก data.experience.end จะหายไปทั้งหมด",
+      "experience-region": "ค่าของ data.experience.country และ data.experience.region โดย data.experience.country จะไม่ถูกส่งไปหากมันเป็นประเทศเดียวกับแม่แบบ เช่น แม่แบบเป็นภาษา ไทย (ประเทศไทย) และประเทศของค่านี้เป็นประเทศไทย",
+      "experience-start": "ค่าของ data.experience.start.month และ data.experience.start.year หากค่านี้ถูกถอดออก data.experience.start จะหายไปทั้งหมด",
+      "experience-street": "ค่าของ data.experience.street",
+      "experience-title": "ค่าของ data.experience.title",
+      "github": "ค่าของ data.github",
+      "headline": "ค่าของ data.headline",
+      "language-language": "ค่าของ data.language.name",
+      "language-proficiency": "ค่าของ data.language.proficiency",
+      "language-comment": "ค่าของ data.language.comment",
+      "linkedin": "ค่าของ data.linkedin",
+      "mobile": "ค่าของ data.mobile",
+      "name-first": "ค่าของ data.name.firstName",
+      "name-last": "ค่าของ data.name.lastName",
+      "name-middle": "ค่าของ data.name.middleName",
+      "skill-name": "ค่าของ data.skill.name หากไม่ได้จัดหมวดหมู่ หากมีการจัดหมวดหมู่จะเป็นค่าของแต่ละรายการในหมวดหมู่",
+      "skill-proficiency": "ค่าของ data.skill.proficiency หากไม่ได้มีการจัดหมวดหมู่ หากมีการจัดหมวดหมู่ชื่อทักษะจะถูกรวบเข้า data.skill.novice กับ data.skill.expert",
+      "summary": "ค่าของ data.summary",
+      "website": "ค่าของ data.website",
+      "photo": "ค่าของ data.photo โดยจะเป็นชื่อไฟล์ JPEG ที่ไม่มีนามสกุลไฟล์",
+      "save-error": "บันทึกข้อมูลล้มเหลว: {error}",
+      "discard-unsaved": "คุณต้องการที่จะลบการแก้ไขที่ยังไม่ได้บันทึกใช่หรือไม่",
+      "certificate-name": "ค่าของ data.certificate.name",
+      "certificate-obtained": "ค่าของ data.certificate.obtainedDate.month และ data.certificate.obtainedDate.year"
+    },
+    "label": {
+      "job-placeholder": "เลือกอาชีพ",
+      "locale-placeholder": "เลือกภาษา",
+      "invariant-locale": "ค่าพื้นฐาน",
+      "save-all": "บันทึก",
+      "default-job": "ค่าพื้นฐาน",
+      "disable-parent": "ไม่สืบทอดข้อมูล",
+      "go-top": "กลับสู่ด้านบน",
+      "discard-changes": "คืนค่าเดิม"
+    }
+  },
+  "no-guest": {
+    "message": {
+      "not-available": "หน้านี้ไม่สามารถใช้งานได้ด้วยบัญชีชั่วคราว"
+    }
+  },
+  "feedback-modal": {
+    "label": {
+      "title": "ติชม Cloudsumé",
+      "score-bad": "แย่",
+      "score-okay": "ก็ดี",
+      "score-good": "ดีมาก",
+      "score": "การใช้งาน Cloudsumé ของคุณเป็นอย่างไร",
+      "detail": "รายละเอียดเพิ่มเติม",
+      "detail-ph": "อย่าระบุข้อมูลส่วนตัวหรือข้อมูลที่เป็นความลับ (เช่น รหัสผ่าน)",
+      "contact": "ให้เราติดต่อกลับเกี่ยวกับการติชมของคุณ",
+      "contact-ph": "ระบุที่อยู่อีเมล",
+      "tos": "ข้อตกลงการใช้งาน",
+      "pp": "นโยบายความเป็นส่วนตัว",
+      "contact-email": "ที่อยู่อีเมล"
+    },
+    "message": {
+      "tos-notice": "การกดปุ่ม ตกลง เท่ากับคุณได้ยอมรับ {tos} และ {pp} ของเรา",
+      "captcha-error": "ล้มเหลวในการอ่านผลของแคปต์ชา กรุณาลองใหม่อีกครั้ง",
+      "submit-error": "มีบางอย่างผิดพลาดในระหว่างการส่งคำติชม: {error}"
+    }
+  },
+  "datetime-viewer": {
+    "label": {
+      "now": "เมื่อครู่นี้",
+      "one-minute": "1 นาทีที่แล้ว",
+      "minutes": "{minutes} นาทีที่แล้ว",
+      "one-hour": "1 ชั่วโมงที่แล้ว",
+      "hours": "{hours} ชั่วโมงที่แล้ว",
+      "one-day": "1 วันที่แล้ว",
+      "days": "{days} วันที่แล้ว"
+    }
+  },
+  "resume-downloader": {
+    "message": {
+      "error": "มีบางอย่างผิดพลาดในระหว่างการสร้างเรซูเมของคุณ: {error}",
+      "share-agreement": "หากคุณเลือกแชร์เรซูเมนี้กับ Recruiters หมายความว่า คุณยินยอมให้เราเผยแพร่ข้อมูลในเรซูเมนี้กับบุคคลภายนอก",
+      "consent-error": "มีบางอย่างผิดพลาดในระหว่างการส่งคำยินยอมของคุณ: {error}"
+    },
+    "label": {
+      "share-button": "แชร์เรซูเมนี้กับ Recruiters",
+      "decline-button": "ไม่แชร์เรซูเมนี้"
+    }
+  }
+}

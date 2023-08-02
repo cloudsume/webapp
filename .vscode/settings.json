@@ -1,0 +1,10 @@
+{
+  "editor.rulers": [160],
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": "src/translations",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,24 @@
+// bootstrap configurations
+// the following import is required for creating the variables to override
+// when we want to use functions/variables/mixin from these import we still required to import it again otherwise it will not work
+// see https://getbootstrap.com/docs/4.6/getting-started/theming/ for information
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$theme-colors: (
+  "primary": #0535F7,
+  "success": #16B29F,
+  "info": #6693f5
+);
+
+$body-color: $black;
+
+// flag-icon-css configurations
+
+$flag-icon-css-path: '~flag-icon-css/flags';
+$include: ee, in, jp, kr, ng, ph, pk, sg, th, us, vn;
+
+// cloudsume specific
+
+$navbar-height: 60px; // update this when height of navbar changed
